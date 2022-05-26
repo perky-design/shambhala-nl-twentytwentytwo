@@ -36,6 +36,7 @@ You can install the tools by opening yor terminal in the themes root folder
 and entering the following commands:
 
 ```npm install```
+
 ```composer install```
 
 ### CSS
