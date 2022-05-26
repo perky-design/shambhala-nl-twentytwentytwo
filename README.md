@@ -2,7 +2,7 @@
 
 A full site editing theme for WordPress.
 
-![Shambhala Twenty Twenty Two](https://github.com/perky-design/water-tiger/blob/master/screenshot.png?raw=true)
+![Shambhala Twenty Twenty Two](https://github.com/perky-design/shambhala-nl-twentytwentytwo/blob/main/screenshot.png?raw=true)
 
 * Contributors: Joop Laan
 * Tested up to: 5.9
