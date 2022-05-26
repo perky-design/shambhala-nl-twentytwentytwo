@@ -67,6 +67,7 @@ function shambhala_twentytwentytwo_register_block_patterns() {
 		'page-shambhala-centre',
 		'query-default',
 		'query-grid',
+		'query-small',
 		'section-description-text',
 		'section-image-with-text-1',
 		'section-image-with-text-2',
