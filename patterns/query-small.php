@@ -20,7 +20,7 @@ return array(
 
 		<!-- wp:column -->
 		<div class="wp-block-column"><!-- wp:paragraph {"align":"right"} -->
-		<p class="has-text-align-right"><a href="#">' . esc_html__( 'All news -&gt', 'shambhala-twentytwentytwo' ) . ';</a></p>
+		<p class="has-text-align-right"><a href="#">' . esc_html__( 'All news', 'shambhala-twentytwentytwo' ) . ';</a></p>
 		<!-- /wp:paragraph --></div>
 		<!-- /wp:column --></div>
 		<!-- /wp:columns -->
