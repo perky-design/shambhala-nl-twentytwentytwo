@@ -176,4 +176,3 @@ function wshambhala_twentytwentytwo_translations() {
 }
 add_action( 'after_setup_theme', 'wshambhala_twentytwentytwo_translations' );
 
-echo 'c: ' . wp_get_theme()->get( 'Version' );
