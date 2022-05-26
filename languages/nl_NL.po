@@ -1,0 +1,505 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shambhala Twenty Twenty-Two\n"
+"POT-Creation-Date: 2022-05-26 12:46+0200\n"
+"PO-Revision-Date: 2022-05-26 13:36+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#. Theme Name of the plugin/theme
+#: functions/functions-blocks.php:15
+msgid "Shambhala Twenty Twenty-Two"
+msgstr "Shambhala Twenty Twenty-Two"
+
+#: functions/functions-blocks.php:20
+msgid "Shambhala: Section"
+msgstr "Shambhala: Sectie"
+
+#: functions/functions-blocks.php:24
+msgid "Shambhala: Page"
+msgstr "Shambhala: Pagina"
+
+#: functions/functions-blocks.php:28
+msgid "Shambhala: Header"
+msgstr "Shambhala: Header"
+
+#: functions/functions-blocks.php:32
+msgid "Shambhala: Footer"
+msgstr "Shambhala: Footer"
+
+#: functions/functions-blocks.php:36
+msgid "Shambhala: Query"
+msgstr "Shambhala: Query"
+
+#: functions/functions-theme-setup.php:153
+msgid "Rounded image"
+msgstr "Rond beeld"
+
+#: patterns/footer-default.php:9
+msgid "Footer with 4 menus and link to subscriptions page."
+msgstr "Footer met 4 menu's en link naar abonnementen pagina."
+
+#: patterns/header-default.php:9
+msgid "Shambhala standard site header"
+msgstr "Shambhala standaard site header"
+
+#: patterns/hero-about.php:12
+msgid "About Hero"
+msgstr "Groot beeld met beschrijving en knoppen"
+
+#: patterns/hero-about.php:14
+msgctxt "Cover photo, headline, a short text and buttons."
+msgid "About Hero with description and buttons"
+msgstr "Groot beeld met beschrijving en knoppen"
+
+#: patterns/hero-about.php:17 patterns/page-landing-hero.php:12
+msgid "Meditators in Shambhala shrine room"
+msgstr "Meditators in Shambhala schrijnruimte"
+
+#: patterns/hero-about.php:19 patterns/page-landing-hero.php:14
+#: patterns/page-landing-hero.php:37 patterns/section-three-columns.php:12
+msgid "Shambhala: a global community"
+msgstr "Shambhala: een wereldwijde gemeenschap"
+
+#: patterns/hero-about.php:23 patterns/page-landing-hero.php:18
+msgid ""
+"Shambhala is a global community of people inspired by the principle that "
+"every human being has a fundamental nature of basic goodness."
+msgstr ""
+"Shambhala is een wereldwijde gemeenschap van mensen die zich laten "
+"inspireren door het principe dat ieder mens een natuur van fundamentele "
+"goedheid heeft."
+
+#: patterns/hero-about.php:28 patterns/page-landing-hero.php:23
+msgid "Find a centre"
+msgstr "Vind een meditatiecentrum"
+
+#: patterns/hero-about.php:32 patterns/page-landing-hero.php:27
+msgid "Calendar"
+msgstr "Kalender"
+
+#: patterns/hidden-404.php:9
+msgid "404 error content."
+msgstr "404 fout inhoud."
+
+#: patterns/hidden-404.php:12
+msgid "Not found, error 404"
+msgstr "Niet gevonden (fout 404)"
+
+#: patterns/hidden-404.php:15
+msgid ""
+"Oops, the page you are looking for does not exist or is no longer available. "
+"Everything is still awesome. Just use the search form."
+msgstr ""
+"Oeps, de pagina die u zoekt bestaat niet of is niet meer beschikbaar. "
+"Gebruik het zoekformulier."
+
+#: patterns/page-landing-hero.php:9
+msgid "Landing page with hero image."
+msgstr "Landingspagina met grote afbeelding."
+
+#: patterns/page-landing-hero.php:43 patterns/section-three-columns.php:18
+msgid ""
+"Shambhala is a global community of people inspired by the principle that "
+"every human being has a fundamental nature of basic goodness. This nature, "
+"our innate wisdom, can be developed so that it benefits our own lives and "
+"helps meet the many challenges facing the world."
+msgstr ""
+"Shambhala is een wereldwijde gemeenschap van mensen die zich laten "
+"inspireren door het principe dat ieder mens een fundamentele natuur van "
+"fundamentele goedheid heeft. Deze natuur, onze aangeboren wijsheid, kan "
+"ontwikkeld worden zodat het ons eigen leven ten goede komt en helpt de vele "
+"uitdagingen aan te gaan waarmee de wereld geconfronteerd wordt."
+
+#: patterns/page-landing-hero.php:47 patterns/section-three-columns.php:22
+msgid "People in Shambhala shrine room, some smiling, some pensive."
+msgstr ""
+"Mensen in de Shambhala schrijnruimte, sommige glimlachend, sommige peinzend."
+
+#: patterns/page-landing-hero.php:47 patterns/section-three-columns.php:22
+msgid "Community gathering"
+msgstr "Bijeenkomst van de gemeenschap"
+
+#: patterns/page-landing-hero.php:51 patterns/section-three-columns.php:26
+msgid ""
+"Shambhala welcomes people from all walks of life, faiths, and backgrounds. "
+"They come together to practice meditation, gather, and celebrate to develop "
+"a global culture that cultivates dignity and sanity in an increasingly "
+"chaotic and stressful world."
+msgstr ""
+"Shambhala verwelkomt mensen van alle rangen en standen, geloofsovertuigingen "
+"en achtergronden. Zij komen samen om meditatie te beoefenen, samen te komen "
+"en feest te vieren om een wereldwijde cultuur te ontwikkelen die waardigheid "
+"en geestelijke gezondheid cultiveert in een wereld die steeds chaotischer en "
+"stressvoller wordt."
+
+#: patterns/page-landing-hero.php:57 patterns/section-three-columns.php:32
+msgid ""
+"Each individual, group, and Shambhala Center worldwide are linked together "
+"by the Shambhala teachings and lineage, making a worldwide community of "
+"shared inspiration. There are thousands of members and friends of Shambhala "
+"on all continents."
+msgstr ""
+"Elk individu, elke groep en elk Shambhala Centrum wereldwijd zijn met elkaar "
+"verbonden door de Shambhala leringen en overleveringslijn, waardoor een "
+"wereldwijde gemeenschap van gedeelde inspiratie ontstaat. Er zijn duizenden "
+"leden en vrienden van Shambhala op alle continenten."
+
+#: patterns/page-landing-hero.php:61 patterns/section-three-columns.php:36
+msgid ""
+"There are online communities and more than 200 Shambhala centres and groups "
+"and individual members located in major cities, towns, and rural settings in "
+"over 50 different countries."
+msgstr ""
+"Er zijn online gemeenschappen en meer dan 200 Shambhala centra en groepen en "
+"individuele leden in grote steden, dorpen en landelijke gebieden in meer dan "
+"50 verschillende landen."
+
+#: patterns/page-landing-hero.php:69 patterns/section-three-columns.php:44
+msgid ""
+"Shambhala vision is rooted in the principle that every human being has a "
+"fundamental nature of basic goodness. This nature can be developed in daily "
+"life to radiate out to family, friends, community, and society."
+msgstr ""
+"De Shambhala-visie is geworteld in het principe dat ieder mens een natuur "
+"van fundamentele goedheid heeft. Deze natuur kan in het dagelijks leven "
+"ontwikkeld worden om uit te stralen naar familie, vrienden, gemeenschap en "
+"samenleving."
+
+#: patterns/page-landing-hero.php:73 patterns/section-three-columns.php:48
+msgid "Dive into Shambhala Vision"
+msgstr "Duik in Shambhala Visie"
+
+#: patterns/page-landing-hero.php:84 patterns/section-three-columns.php:59
+msgid ""
+"A great deal of the chaos in the world occurs because people don’t "
+"appreciate themselves."
+msgstr ""
+"Een groot deel van de chaos in de wereld ontstaat omdat mensen zichzelf niet "
+"waarderen."
+
+#: patterns/page-landing-hero.php:84 patterns/section-three-columns.php:59
+msgid "Chögyam Trungpa"
+msgstr "Chögyam Trungpa"
+
+#: patterns/page-landing-hero.php:100
+msgid ""
+"Shambhala takes its name from a legendary kingdom famous for being an "
+"enlightened society. Today, the global Shambhala network brings together "
+"people of all ages and from all walks of life who are interested in "
+"exploring our own minds, transforming our experience, and awakening our "
+"potential for enlightened society."
+msgstr ""
+"Shambhala ontleent zijn naam aan een legendarisch koninkrijk dat bekend "
+"stond als een verlichte samenleving. Vandaag de dag brengt het wereldwijde "
+"Shambhala-netwerk mensen van alle leeftijden en uit alle lagen van de "
+"bevolking samen die geïnteresseerd zijn in het onderzoeken van onze eigen "
+"geest, het transformeren van onze ervaring, en het ontwaken van ons "
+"potentieel voor een verlichte samenleving."
+
+#: patterns/page-landing-hero.php:112 patterns/page-landing-welcome-text.php:93
+#: patterns/section-image-with-text-2.php:12
+msgid "A meditation gong and an ikebana"
+msgstr "Een meditatie gong en een ikebana"
+
+#: patterns/page-landing-hero.php:113
+msgid "A header that sparks interest"
+msgstr "Een koptekst die interesse wekt"
+
+#: patterns/page-landing-hero.php:117
+msgid ""
+"We like to show the picture for illustration and inspiration, lead the "
+"visitor into the story, or highlight a certain point."
+msgstr ""
+"Wij tonen de foto graag ter illustratie en inspiratie, leiden de bezoeker "
+"het verhaal in, of belichten een bepaald punt."
+
+#: patterns/page-landing-welcome-text.php:9
+#: patterns/page-shambhala-centre.php:9
+msgid "Landing page with welcome text."
+msgstr "Landingspagina met welkomsttekst."
+
+#: patterns/page-landing-welcome-text.php:12
+msgid "The Shambhala Path"
+msgstr "Het Shambhala Pad"
+
+#: patterns/page-landing-welcome-text.php:16
+msgid "The Path of Practice and Study"
+msgstr "De pad van beoefening en studie"
+
+#: patterns/page-landing-welcome-text.php:26
+msgid ""
+"The path begins and continues with meditation. Students are introduced to "
+"Buddhist and Shambhala teachings in the context of an ongoing meditation "
+"practice. Shambhala Meditation Centres around the world offer a broad and "
+"carefully thought-out range of classes, meditation programs and community "
+"activities. At our residential practice and retreat centres, students can "
+"deepen their meditation through longer programs, and engage in periods of "
+"intensive study."
+msgstr ""
+"Het pad begint en gaat verder met meditatie. Studenten worden geïntroduceerd "
+"in de boeddhistische en Shambhala-leringen in de context van een doorlopende "
+"meditatiebeoefening. Shambhala Meditatiecentra over de hele wereld bieden "
+"een breed en zorgvuldig uitgedacht scala aan lessen, meditatieprogramma's en "
+"gemeenschapsactiviteiten. In onze residentiële oefen- en retraitecentra "
+"kunnen studenten hun meditatie verdiepen door middel van langere "
+"programma's, en zich bezighouden met periodes van intensieve studie."
+
+#: patterns/page-landing-welcome-text.php:32
+msgid ""
+"The path consists of a series of classes and retreats designed to stabilize "
+"and strengthen our meditation practice, and to clarify our understanding of "
+"the teachings. These courses offer entry into the wisdom tradition of "
+"Shambhala as well as the classical teachings of Tibetan Buddhism. A careful "
+"sequence of group practice programs at residential centres ensure the "
+"unfolding of deeper training, including week-long meditation retreats as "
+"well as specific Assemblies that introduce more advanced practices."
+msgstr ""
+"Het pad bestaat uit een reeks lessen en retraites die bedoeld zijn om onze "
+"meditatiebeoefening te stabiliseren en te versterken, en om ons begrip van "
+"de leringen te verduidelijken. Deze cursussen bieden een ingang in de "
+"wijsheidstraditie van Shambhala en in de klassieke leringen van het "
+"Tibetaans boeddhisme. Een zorgvuldige opeenvolging van "
+"groepsbeoefeningsprogramma's in residentiële centra zorgt voor de "
+"ontplooiing van diepere training, met inbegrip van meditatieretraites van "
+"een week en specifieke bijeenkomsten die meer geavanceerde beoefeningen "
+"introduceren."
+
+#: patterns/page-landing-welcome-text.php:42
+#: patterns/section-image-with-text-1.php:12
+msgid "Meditators"
+msgstr "Meditators"
+
+#: patterns/page-landing-welcome-text.php:43
+#: patterns/section-image-with-text-1.php:13
+msgid "Way of Shambhala"
+msgstr "Weg van Shambhala"
+
+#: patterns/page-landing-welcome-text.php:47
+#: patterns/section-image-with-text-1.php:17
+msgid ""
+"Way of Shambhala is a complete introduction to the foundations of Shambhala "
+"Buddhism. This series of weekend contemplative workshops and weeknight "
+"classes provides an experiential overview of meditation practice, wisdom "
+"teachings, contemplative arts, and physical disciplines rooted in the "
+"ancient traditions of Shambhala and Tibetan Buddhism. This program is open "
+"to everyone and prepares students who wish to develop further their practice "
+"and study at Enlightened Society Assembly and Warrior Assembly."
+msgstr ""
+"Way of Shambhala is een complete introductie tot de fundamenten van het "
+"Shambhala Boeddhisme. Deze serie van contemplatieve weekendworkshops en "
+"doordeweekse avondlessen biedt een ervaringsgericht overzicht van "
+"meditatiebeoefening, wijsheidsleringen, contemplatieve kunsten en fysieke "
+"disciplines die geworteld zijn in de oude tradities van Shambhala en "
+"Tibetaans boeddhisme. Dit programma staat open voor iedereen en bereidt "
+"studenten voor die hun beoefening en studie verder willen ontwikkelen bij "
+"Enlightened Society Assembly en Warrior Assembly."
+
+#: patterns/page-landing-welcome-text.php:62
+#: patterns/section-description-text.php:19
+msgid ""
+"Shambhala is based on trust in human dignity. We offer a path of meditation "
+"practice and contemplative arts oriented towards modern life. Our "
+"communities around the world cultivate kindness, bravery, and genuine "
+"dialogue.  Our vision is to inspire compassionate, sustainable, and just "
+"human societies.."
+msgstr ""
+"Shambhala is gebaseerd op vertrouwen in de menselijke waardigheid. Wij "
+"bieden een pad van meditatiebeoefening en contemplatieve kunsten gericht op "
+"het moderne leven. Onze gemeenschappen over de hele wereld cultiveren "
+"vriendelijkheid, moed en oprechte dialoog.  Onze visie is om compassievolle, "
+"duurzame en rechtvaardige menselijke samenlevingen te inspireren..."
+
+#: patterns/page-landing-welcome-text.php:76
+msgid "Ashe"
+msgstr "Ashe"
+
+#: patterns/page-landing-welcome-text.php:77
+msgid "Shambhala Training: Heart of Warriorship"
+msgstr "Shambhala Opleiding: Hart van Krijgerschap"
+
+#: patterns/page-landing-welcome-text.php:81
+msgid ""
+"The Shambhala Training Heart of Warriorship program (Levels I-V) introduces "
+"teachings on “warriorship” that cultivate genuineness, confidence, humor, "
+"and dignity in daily life."
+msgstr ""
+"Het Shambhala Trainingsprogramma Heart of Warriorship (Levels I-V) "
+"introduceert leringen over \"krijgerschap\" die oprechtheid, vertrouwen, "
+"humor en waardigheid in het dagelijks leven cultiveren."
+
+#: patterns/page-landing-welcome-text.php:85
+msgid ""
+"When taken as a component of the integrated Way of Shambhala curriculum, "
+"this course of study prepares students who wish to develop their practice "
+"and study further for Enlightened Society Assembly and the Shambhala Sacred "
+"Path program. Shambhala Training Levels I-V, or The Heart of Warriorship, "
+"may also be practiced as a series of independent workshops."
+msgstr ""
+"Wanneer deze cursus wordt gevolgd als onderdeel van het geïntegreerde Way of "
+"Shambhala curriculum, bereidt hij studenten die hun beoefening en studie "
+"verder willen ontwikkelen voor op de Enlightened Society Assembly en het "
+"Shambhala Sacred Path programma. Shambhala Training Levels I-V, of Het Hart "
+"van Krijgserschap, kan ook worden beoefend als een serie van onafhankelijke "
+"workshops."
+
+#: patterns/page-landing-welcome-text.php:94
+#: patterns/section-image-with-text-2.php:13
+msgid "Shambhala Kado"
+msgstr "Shambhala Kado"
+
+#: patterns/page-landing-welcome-text.php:98
+#: patterns/section-image-with-text-2.php:17
+msgid ""
+"The word Kado is Chinese, meaning “Way or Path of Flowers,” and is utilized "
+"to claim the Chinese cultural origin and lineage of the contemplative art "
+"and practice. Japan imported the way from China some 1600 years ago and "
+"eventually changed the practice's name to Ikebana, meaning “Natural Flowers."
+msgstr ""
+"Het woord Kado is Chinees en betekent \"Weg of Pad van Bloemen,\" en wordt "
+"gebruikt om de Chinese culturele oorsprong en afkomst van de contemplatieve "
+"kunst en praktijk te claimen. Japan importeerde de weg uit China zo'n 1600 "
+"jaar geleden en veranderde uiteindelijk de naam in Ikebana, wat "
+"\"Natuurlijke Bloemen\" betekent."
+
+#. translators: %s is replaced with "link"
+#: patterns/page-landing-welcome-text.php:102
+#: patterns/section-image-with-text-2.php:21
+#, php-format
+msgid ""
+"Kado classes and retreats are offered in Europe and the United States. For "
+"further information, please visit %s."
+msgstr ""
+"Kado lessen en retraites worden aangeboden in Europa en de Verenigde Staten. "
+"Voor meer informatie kunt u terecht op %s."
+
+#: patterns/page-shambhala-centre.php:14
+msgid "Shambhala Meditation Centre Los Angeles"
+msgstr "Shambhala Meditatie Centrum Los Angeles"
+
+#: patterns/page-shambhala-centre.php:34
+msgid ""
+"If you want to learn how to meditate, or experience sitting in silence "
+"together, join us at"
+msgstr ""
+"Als je wilt leren mediteren, of wilt ervaren hoe het is om samen in stilte "
+"te zitten, kom dan naar"
+
+#: patterns/query-default.php:9
+msgid "List of posts in one column."
+msgstr "Lijst van berichten in één kolom."
+
+#: patterns/query-grid.php:9
+msgid "Grid of posts in three columns."
+msgstr "Rooster van berichten in drie kolommen."
+
+#: patterns/section-description-text.php:9
+msgid "Description section with text."
+msgstr "Beschrijving met tekst."
+
+#: patterns/section-image-with-text-1.php:9
+msgid "Image with text 1."
+msgstr "Beeld met tekst 1."
+
+#: patterns/section-image-with-text-2.php:9
+msgid "Image with text 2."
+msgstr "Afbeelding met tekst 2."
+
+#: patterns/section-image-with-text-3.php:9
+msgid "Image with text 3."
+msgstr "Afbeelding met tekst 3."
+
+#: patterns/section-image-with-text-3.php:12
+msgid "Illustration with four smiling meditators"
+msgstr "Illustratie met vier glimlachende meditators"
+
+#: patterns/section-image-with-text-3.php:13
+msgid "Find your path online"
+msgstr "Vind je pad online"
+
+#: patterns/section-image-with-text-3.php:17
+msgid ""
+"Connect with teachings to deepen your spiritual journey—anytime, anywhere."
+msgstr ""
+"Maak contact met leringen om je spirituele reis te verdiepen - altijd en "
+"overal."
+
+#: patterns/section-image-with-text-3.php:26
+msgid "Visit Course Library"
+msgstr "Bezoek de cursusbibliotheek"
+
+#: patterns/section-image-with-text-4.php:9
+msgid "Image with text 4."
+msgstr "Afbeelding met tekst 4."
+
+#: patterns/section-image-with-text-4.php:12
+msgid "Buddha statue"
+msgstr "Boeddhabeeld"
+
+#: patterns/section-image-with-text-4.php:13
+msgid "Shambhala brings together people of all ages and from all walks of life"
+msgstr ""
+"Shambhala brengt mensen van alle leeftijden en uit alle lagen van de "
+"bevolking samen"
+
+#: patterns/section-image-with-text-4.php:17
+msgid ""
+"Shambhala is based on trust in human dignity. We offer a path of meditation "
+"practice and contemplative arts oriented towards modern life."
+msgstr ""
+"Shambhala is gebaseerd op vertrouwen in de menselijke waardigheid. Wij "
+"bieden een pad van meditatiebeoefening en contemplatieve kunsten gericht op "
+"het moderne leven."
+
+#: patterns/section-image-with-text-4.php:26
+msgid "Learn more"
+msgstr "Leer meer"
+
+#: patterns/section-three-columns.php:9
+msgid "Three columns with images and text."
+msgstr "Drie kolommen met afbeeldingen en tekst."
+
+#: patterns/section-two-columns.php:9
+msgid "Two columns with text."
+msgstr "Twee kolommen met tekst."
+
+#: patterns/section-welcome-text.php:9
+msgid "Welcome section with text."
+msgstr "Welkom sectie met tekst."
+
+#: patterns/section-welcome-text.php:13
+msgid "New York"
+msgstr "New York"
+
+#: patterns/section-welcome-text.php:17
+msgid "Creating Enlighted Society"
+msgstr "Het creëren van een verlichte samenleving"
+
+#. Description of the plugin/theme
+msgid "Twenty Twenty-Two Child Theme made by shambhala.nl"
+msgstr "Twenty Twenty-Two Child Thema gemaakt door shambhala.nl"
+
+#. Author of the plugin/theme
+msgid "The shambhala.nl team"
+msgstr "Het shambhala.nl team"
+
+#. Author URI of the plugin/theme
+msgid "https://shambhala.nl/"
+msgstr "https://shambhala.nl/"

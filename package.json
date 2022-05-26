@@ -1,0 +1,31 @@
+{
+	"name": "shambhala-nl-twentytwentytwo",
+	"version": "0.0.0",
+	"description": "Shambhala NL block based  (a Twenty Twenty Two child theme)",
+	"author": "Shambhala NL",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"Theme"
+	],
+	"homepage": "https://github.com/perky-design/shambhala-nl-twentytwentytwo/",
+	"devDependencies": {
+		"@babel/core": "^7.16.7",
+		"@wordpress/babel-preset-default": "^6.4.1",
+		"@wordpress/eslint-plugin": "^9.3.0",
+		"@wordpress/stylelint-config": "^19.1.0",
+		"eslint": "^8.6.0",
+		"postcss-lit": "^0.4.3",
+		"stylelint": "13.13.1"
+	},
+	"scripts": {
+		"lint:css": "stylelint assets/css/*.css",
+		"lint-fix:css": "stylelint assets/css/*.css --fix",
+		"lint:js": "eslint assets/js/",
+		"lint-fix:js": "eslint --fix assets/js/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/perky-design/shambhala-nl-twentytwentytwo/"
+	}
+}
