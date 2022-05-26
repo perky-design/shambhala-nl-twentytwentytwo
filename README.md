@@ -42,6 +42,7 @@ and entering the following commands:
 ### CSS
 
 To compare your code against the WordPress CSS coding standards, use the command: ```npm run lint:css```
+
 To fix the CSS use: ```npm run lint-fix:css```
 
 ### PHP
