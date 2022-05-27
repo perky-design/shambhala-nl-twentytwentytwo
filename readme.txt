@@ -57,8 +57,23 @@ To fix the JS, use the command: ```npm run lint-fix:js```
 
 == Changelog ==
 
+0.1.1 Small bug fixes and typos
 0.1.0 Added Block Pattern
 0.0.1 Initial release
+
+== Making a release ==
+
+Check PHP with ```composer standards:check```
+
+Check CSS with ```npm run lint:js```
+
+Create release branch in Git
+
+Update version number in composer.json, package.json, and style.css
+
+Update Changelog in readme.txt and README.md
+
+Finish release branch in Git
 
 == Licence ==
 
