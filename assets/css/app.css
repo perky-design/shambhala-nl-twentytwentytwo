@@ -1,5 +1,5 @@
 
-/* Set header color to black */
+/* Typography */
 h1,
 h2,
 h3,
@@ -13,48 +13,22 @@ h6 {
 	color: inherit !important;
 }
 
-.wp-block-media-text__content h2 {
-	margin-block-start: var(--wp--style--block-gap);
-}
+/* End Typography */
 
 /* Header menu */
 header .wp-block-navigation .wp-block-navigation-item__content {
 	color: var(--wp--preset--color--black) !important;
 }
 
-/* Menu styling on desktop */
+/* End Header menu */
+
+/* Menu styling */
 @media (min-width: 600px) {
 
 	.wp-block-navigation .has-child :where(.wp-block-navigation__submenu-container) > .wp-block-navigation-item > .wp-block-navigation-item__content {
 		flex-grow: 0;
 		margin-left: auto;
 	}
-}
-
-footer.wp-block-template-part {
-	margin-block-start: 0 !important;
-}
-
-.shambhala-twentytwentytwo .shambhala-twentytwentytwo-footer h2 {
-	margin-block-start: 0;
-	margin-block-end: var(--wp--style--block-gap);
-}
-
-.shambhala-twentytwentytwo .shambhala-twentytwentytwo-footer p {
-	margin-block-start: 0;
-	margin-block-end: calc(var(--wp--style--block-gap) / 2);
-}
-
-.width-content-size {
-	max-width: var(--wp--custom--width-content) !important;
-}
-
-.width-full-size {
-	max-width: var(--wp--custom--width-full) !important;
-}
-
-.is-style-rounded-image img {
-	border-radius: 50% !important;
 }
 
 .wp-block-navigation__responsive-container-open {
@@ -70,3 +44,37 @@ footer.wp-block-template-part {
 	top: 0.225rem;
 	left: -0.5rem;
 }
+
+/* End Menu styling */
+
+/* Utility classes */
+.width-content-size {
+	max-width: var(--wp--custom--width-content) !important;
+}
+
+.width-full-size {
+	max-width: var(--wp--custom--width-full) !important;
+}
+
+.wp-block-media-text__content h2 {
+	margin-block-start: var(--wp--style--block-gap);
+}
+
+/* End Utility classes */
+
+/* Footer styling */
+footer.wp-block-template-part {
+	margin-block-start: 0 !important;
+}
+
+.shambhala-twentytwentytwo .shambhala-twentytwentytwo-footer h2 {
+	margin-block-start: 0;
+	margin-block-end: var(--wp--style--block-gap);
+}
+
+.shambhala-twentytwentytwo .shambhala-twentytwentytwo-footer p {
+	margin-block-start: 0;
+	margin-block-end: calc(var(--wp--style--block-gap) / 2);
+}
+
+/* End Footer styling */

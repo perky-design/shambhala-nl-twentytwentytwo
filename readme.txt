@@ -5,7 +5,7 @@ A full site editing theme for WordPress.
 ![Shambhala Twenty Twenty Two](https://github.com/perky-design/water-tiger/blob/master/screenshot.png?raw=true)
 
 Contributors: Joop Laan
-Tested up to: 5.9
+Tested up to: 6.0
 Requires at least: 5.9
 Requires PHP: 7.2
 Version: 1.0.0
@@ -57,6 +57,7 @@ To fix the JS, use the command: ```npm run lint-fix:js```
 
 == Changelog ==
 
+0.1.0 Added Block Pattern
 0.0.1 Initial release
 
 == Licence ==
