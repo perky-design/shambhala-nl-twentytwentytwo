@@ -5,7 +5,7 @@ A full site editing theme for WordPress.
 ![Shambhala Twenty Twenty Two](https://github.com/perky-design/shambhala-nl-twentytwentytwo/blob/main/screenshot.png?raw=true)
 
 * Contributors: Joop Laan
-* Tested up to: 5.9
+* Tested up to: 6.0
 * Requires at least: 5.9
 * Requires PHP: 7.2
 * Version: 1.0.0
