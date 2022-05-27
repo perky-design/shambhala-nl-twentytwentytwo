@@ -6,7 +6,7 @@
  */
 
 return array(
-	'title'         => __( 'List of posts in one column.', 'shambhala-twentytwentytwo' ),
+	'title'         => __( 'List of posts with featured images in one column.', 'shambhala-twentytwentytwo' ),
 	'categories'    => array( 'sh-query' ),
 	'viewportWidth' => 1280,
 	'content'       => '<!-- wp:group {"align":"wide","layout":{"inherit":true}} -->
