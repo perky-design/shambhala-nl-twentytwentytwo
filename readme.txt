@@ -57,8 +57,8 @@ To fix the JS, use the command: ```npm run lint-fix:js```
 
 == Changelog ==
 
+0.1.0 Added Block Pattern
 0.0.1 Initial release
-0.1.0 Added new block pattern and updated WP tested version to WP 6.0
 
 == Licence ==
 
