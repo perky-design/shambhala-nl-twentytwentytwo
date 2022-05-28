@@ -15,25 +15,27 @@ function shambhala_twentytwentytwo_register_block_patterns() {
 			register_block_pattern_category_type( 'shambhala-twentytwentytwo', array( 'label' => __( 'Shambhala Twenty Twenty-Two', 'shambhala-twentytwentytwo' ) ) );
 	}
 
+	$label = __( 'Shambhala: ', 'shambhala-twentytwentytwo' );
+
 	$block_pattern_categories = array(
 		'sh-section' => array(
-			'label'         => __( 'Shambhala: Section', 'shambhala-twentytwentytwo' ),
+			'label'         => $label . __( 'Section', 'shambhala-twentytwentytwo' ),
 			'categoryTypes' => array( 'shambhala-twentytwentytwo' ),
 		),
 		'sh-page'    => array(
-			'label'         => __( 'Shambhala: Page', 'shambhala-twentytwentytwo' ),
+			'label'         => $label . __( 'Page', 'shambhala-twentytwentytwo' ),
 			'categoryTypes' => array( 'shambhala-twentytwentytwo' ),
 		),
 		'sh-header'  => array(
-			'label'         => __( 'Shambhala: Header', 'shambhala-twentytwentytwo' ),
+			'label'         => $label . __( 'Header', 'shambhala-twentytwentytwo' ),
 			'categoryTypes' => array( 'shambhala-twentytwentytwo' ),
 		),
 		'sh-footer'  => array(
-			'label'         => __( 'Shambhala: Footer', 'shambhala-twentytwentytwo' ),
+			'label'         => $label . __( 'Footer', 'shambhala-twentytwentytwo' ),
 			'categoryTypes' => array( 'shambhala-twentytwentytwo' ),
 		),
 		'sh-query'   => array(
-			'label'         => __( 'Shambhala: Query', 'shambhala-twentytwentytwo' ),
+			'label'         => $label . __( 'Query', 'shambhala-twentytwentytwo' ),
 			'categoryTypes' => array( 'shambhala-twentytwentytwo' ),
 		),
 	);
