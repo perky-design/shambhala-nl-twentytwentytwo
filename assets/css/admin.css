@@ -155,3 +155,21 @@ h6 {
 .is-style-rounded-image img {
 	border-radius: 50% !important;
 }
+
+
+/* Google maps custom HTML */
+.google-maps {
+	position: relative;
+	overflow: hidden;
+	height: 400px;
+}
+
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+/* End Google maps custom HTML */

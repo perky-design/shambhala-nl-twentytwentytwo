@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Shambhala Twenty Twenty-Two\n"
-"POT-Creation-Date: 2022-05-26 13:38+0200\n"
+"POT-Creation-Date: 2022-05-28 11:05+0200\n"
 "PO-Revision-Date: 2022-05-26 13:37+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -28,28 +28,36 @@ msgstr ""
 msgid "Shambhala Twenty Twenty-Two"
 msgstr ""
 
-#: functions/functions-blocks.php:20
-msgid "Shambhala: Section"
+#: functions/functions-blocks.php:18
+msgid "Shambhala: "
 msgstr ""
 
-#: functions/functions-blocks.php:24
-msgid "Shambhala: Page"
+#: functions/functions-blocks.php:22
+msgid "Sections"
 msgstr ""
 
-#: functions/functions-blocks.php:28
-msgid "Shambhala: Header"
+#: functions/functions-blocks.php:26
+msgid "Pages"
 msgstr ""
 
-#: functions/functions-blocks.php:32
-msgid "Shambhala: Footer"
+#: functions/functions-blocks.php:30
+msgid "Headers"
 msgstr ""
 
-#: functions/functions-blocks.php:36
-msgid "Shambhala: Query"
+#: functions/functions-blocks.php:34
+msgid "Footers"
 msgstr ""
 
-#: functions/functions-theme-setup.php:153
+#: functions/functions-blocks.php:38
+msgid "Query"
+msgstr ""
+
+#: functions/functions-theme-setup.php:162
 msgid "Rounded image"
+msgstr ""
+
+#: functions/functions-theme-setup.php:213
+msgid "Small grey"
 msgstr ""
 
 #: patterns/footer-default.php:9
@@ -69,26 +77,27 @@ msgctxt "Cover photo, headline, a short text and buttons."
 msgid "About Hero with description and buttons"
 msgstr ""
 
-#: patterns/hero-about.php:17 patterns/page-landing-hero.php:12
+#: patterns/hero-about.php:17 patterns/page-landing-hero.php:20
 msgid "Meditators in Shambhala shrine room"
 msgstr ""
 
-#: patterns/hero-about.php:19 patterns/page-landing-hero.php:14
-#: patterns/page-landing-hero.php:37 patterns/section-three-columns.php:12
+#: patterns/hero-about.php:19 patterns/page-landing-hero.php:22
+#: patterns/page-landing-hero.php:45 patterns/section-three-columns.php:12
 msgid "Shambhala: a global community"
 msgstr ""
 
-#: patterns/hero-about.php:23 patterns/page-landing-hero.php:18
+#: patterns/hero-about.php:23 patterns/page-landing-hero.php:26
 msgid ""
 "Shambhala is a global community of people inspired by the principle that "
 "every human being has a fundamental nature of basic goodness."
 msgstr ""
 
-#: patterns/hero-about.php:28 patterns/page-landing-hero.php:23
+#: patterns/hero-about.php:28 patterns/page-landing-hero.php:31
 msgid "Find a centre"
 msgstr ""
 
-#: patterns/hero-about.php:32 patterns/page-landing-hero.php:27
+#: patterns/hero-about.php:32 patterns/page-landing-hero.php:35
+#: patterns/page-landing-hero.php:189
 msgid "Calendar"
 msgstr ""
 
@@ -106,11 +115,11 @@ msgid ""
 "Everything is still awesome. Just use the search form."
 msgstr ""
 
-#: patterns/page-landing-hero.php:9
+#: patterns/page-landing-hero.php:17
 msgid "Landing page with hero image."
 msgstr ""
 
-#: patterns/page-landing-hero.php:43 patterns/section-three-columns.php:18
+#: patterns/page-landing-hero.php:51 patterns/section-three-columns.php:18
 msgid ""
 "Shambhala is a global community of people inspired by the principle that "
 "every human being has a fundamental nature of basic goodness. This nature, "
@@ -118,15 +127,15 @@ msgid ""
 "helps meet the many challenges facing the world."
 msgstr ""
 
-#: patterns/page-landing-hero.php:47 patterns/section-three-columns.php:22
+#: patterns/page-landing-hero.php:55 patterns/section-three-columns.php:22
 msgid "People in Shambhala shrine room, some smiling, some pensive."
 msgstr ""
 
-#: patterns/page-landing-hero.php:47 patterns/section-three-columns.php:22
+#: patterns/page-landing-hero.php:55 patterns/section-three-columns.php:22
 msgid "Community gathering"
 msgstr ""
 
-#: patterns/page-landing-hero.php:51 patterns/section-three-columns.php:26
+#: patterns/page-landing-hero.php:59 patterns/section-three-columns.php:26
 msgid ""
 "Shambhala welcomes people from all walks of life, faiths, and backgrounds. "
 "They come together to practice meditation, gather, and celebrate to develop "
@@ -134,7 +143,7 @@ msgid ""
 "chaotic and stressful world."
 msgstr ""
 
-#: patterns/page-landing-hero.php:57 patterns/section-three-columns.php:32
+#: patterns/page-landing-hero.php:65 patterns/section-three-columns.php:32
 msgid ""
 "Each individual, group, and Shambhala Center worldwide are linked together "
 "by the Shambhala teachings and lineage, making a worldwide community of "
@@ -142,35 +151,35 @@ msgid ""
 "on all continents."
 msgstr ""
 
-#: patterns/page-landing-hero.php:61 patterns/section-three-columns.php:36
+#: patterns/page-landing-hero.php:69 patterns/section-three-columns.php:36
 msgid ""
 "There are online communities and more than 200 Shambhala centres and groups "
 "and individual members located in major cities, towns, and rural settings in "
 "over 50 different countries."
 msgstr ""
 
-#: patterns/page-landing-hero.php:69 patterns/section-three-columns.php:44
+#: patterns/page-landing-hero.php:77 patterns/section-three-columns.php:44
 msgid ""
 "Shambhala vision is rooted in the principle that every human being has a "
 "fundamental nature of basic goodness. This nature can be developed in daily "
 "life to radiate out to family, friends, community, and society."
 msgstr ""
 
-#: patterns/page-landing-hero.php:73 patterns/section-three-columns.php:48
+#: patterns/page-landing-hero.php:81 patterns/section-three-columns.php:48
 msgid "Dive into Shambhala Vision"
 msgstr ""
 
-#: patterns/page-landing-hero.php:84 patterns/section-three-columns.php:59
+#: patterns/page-landing-hero.php:92 patterns/section-three-columns.php:59
 msgid ""
 "A great deal of the chaos in the world occurs because people don’t "
 "appreciate themselves."
 msgstr ""
 
-#: patterns/page-landing-hero.php:84 patterns/section-three-columns.php:59
+#: patterns/page-landing-hero.php:92 patterns/section-three-columns.php:59
 msgid "Chögyam Trungpa"
 msgstr ""
 
-#: patterns/page-landing-hero.php:100
+#: patterns/page-landing-hero.php:108
 msgid ""
 "Shambhala takes its name from a legendary kingdom famous for being an "
 "enlightened society. Today, the global Shambhala network brings together "
@@ -179,24 +188,38 @@ msgid ""
 "potential for enlightened society."
 msgstr ""
 
-#: patterns/page-landing-hero.php:112 patterns/page-landing-welcome-text.php:93
-#: patterns/section-image-with-text-2.php:12
-msgid "A meditation gong and an ikebana"
+#: patterns/page-landing-hero.php:122 patterns/section-image-with-text-4.php:12
+msgid "Buddha statue"
 msgstr ""
 
-#: patterns/page-landing-hero.php:113
-msgid "A header that sparks interest"
+#: patterns/page-landing-hero.php:123 patterns/section-image-with-text-4.php:13
+msgid "Shambhala brings together people of all ages and from all walks of life"
 msgstr ""
 
-#: patterns/page-landing-hero.php:117
+#: patterns/page-landing-hero.php:127 patterns/section-image-with-text-4.php:17
 msgid ""
-"We like to show the picture for illustration and inspiration, lead the "
-"visitor into the story, or highlight a certain point."
+"Shambhala is based on trust in human dignity. We offer a path of meditation "
+"practice and contemplative arts oriented towards modern life."
+msgstr ""
+
+#: patterns/page-landing-hero.php:136 patterns/section-image-with-text-4.php:26
+msgid "Learn more"
+msgstr ""
+
+#: patterns/page-landing-hero.php:153 patterns/query-small.php:25
+msgid "Latest news"
+msgstr ""
+
+#: patterns/page-landing-hero.php:159 patterns/query-small.php:31
+msgid "All news"
+msgstr ""
+
+#: patterns/page-landing-hero.php:195
+msgid "All programs"
 msgstr ""
 
 #: patterns/page-landing-welcome-text.php:9
-#: patterns/page-shambhala-centre.php:9
-msgid "Landing page with welcome text."
+msgid "Landing page pattern for content heavy pages."
 msgstr ""
 
 #: patterns/page-landing-welcome-text.php:12
@@ -252,13 +275,12 @@ msgid ""
 msgstr ""
 
 #: patterns/page-landing-welcome-text.php:62
-#: patterns/section-description-text.php:19
 msgid ""
 "Shambhala is based on trust in human dignity. We offer a path of meditation "
 "practice and contemplative arts oriented towards modern life. Our "
 "communities around the world cultivate kindness, bravery, and genuine "
-"dialogue.  Our vision is to inspire compassionate, sustainable, and just "
-"human societies.."
+"dialogue. Our vision is to inspire compassionate, sustainable, and just "
+"human societies."
 msgstr ""
 
 #: patterns/page-landing-welcome-text.php:76
@@ -285,12 +307,59 @@ msgid ""
 "may also be practiced as a series of independent workshops."
 msgstr ""
 
-#: patterns/page-landing-welcome-text.php:94
+#: patterns/page-shambhala-centre.php:9
+msgid "Landing page for Shambhala centre page."
+msgstr ""
+
+#: patterns/page-shambhala-centre.php:14
+msgid "Shambhala Meditation Centre Arnhem"
+msgstr ""
+
+#: patterns/page-shambhala-centre.php:28
+msgid "Meditation in Arnhem"
+msgstr ""
+
+#: patterns/query-default.php:9
+msgid "List of posts with featured images in one column."
+msgstr ""
+
+#: patterns/query-grid.php:9
+msgid "Grid of posts in three columns."
+msgstr ""
+
+#: patterns/query-small.php:17
+msgid "List of posts in one column (no featured images)."
+msgstr ""
+
+#: patterns/section-description-text.php:9
+msgid "Description section with text."
+msgstr ""
+
+#: patterns/section-description-text.php:19
+msgid ""
+"Shambhala is based on trust in human dignity. We offer a path of meditation "
+"practice and contemplative arts oriented towards modern life. Our "
+"communities around the world cultivate kindness, bravery, and genuine "
+"dialogue. Our vision is to inspire compassionate, sustainable, and just "
+"human societies.."
+msgstr ""
+
+#: patterns/section-image-with-text-1.php:9
+msgid "Image with text 1."
+msgstr ""
+
+#: patterns/section-image-with-text-2.php:9
+msgid "Image with text 2."
+msgstr ""
+
+#: patterns/section-image-with-text-2.php:12
+msgid "A meditation gong and an ikebana"
+msgstr ""
+
 #: patterns/section-image-with-text-2.php:13
 msgid "Shambhala Kado"
 msgstr ""
 
-#: patterns/page-landing-welcome-text.php:98
 #: patterns/section-image-with-text-2.php:17
 msgid ""
 "The word Kado is Chinese, meaning “Way or Path of Flowers,” and is utilized "
@@ -300,42 +369,11 @@ msgid ""
 msgstr ""
 
 #. translators: %s is replaced with "link"
-#: patterns/page-landing-welcome-text.php:102
 #: patterns/section-image-with-text-2.php:21
 #, php-format
 msgid ""
 "Kado classes and retreats are offered in Europe and the United States. For "
 "further information, please visit %s."
-msgstr ""
-
-#: patterns/page-shambhala-centre.php:14
-msgid "Shambhala Meditation Centre Los Angeles"
-msgstr ""
-
-#: patterns/page-shambhala-centre.php:34
-msgid ""
-"If you want to learn how to meditate, or experience sitting in silence "
-"together, join us at"
-msgstr ""
-
-#: patterns/query-default.php:9
-msgid "List of posts in one column."
-msgstr ""
-
-#: patterns/query-grid.php:9
-msgid "Grid of posts in three columns."
-msgstr ""
-
-#: patterns/section-description-text.php:9
-msgid "Description section with text."
-msgstr ""
-
-#: patterns/section-image-with-text-1.php:9
-msgid "Image with text 1."
-msgstr ""
-
-#: patterns/section-image-with-text-2.php:9
-msgid "Image with text 2."
 msgstr ""
 
 #: patterns/section-image-with-text-3.php:9
@@ -361,24 +399,6 @@ msgstr ""
 
 #: patterns/section-image-with-text-4.php:9
 msgid "Image with text 4."
-msgstr ""
-
-#: patterns/section-image-with-text-4.php:12
-msgid "Buddha statue"
-msgstr ""
-
-#: patterns/section-image-with-text-4.php:13
-msgid "Shambhala brings together people of all ages and from all walks of life"
-msgstr ""
-
-#: patterns/section-image-with-text-4.php:17
-msgid ""
-"Shambhala is based on trust in human dignity. We offer a path of meditation "
-"practice and contemplative arts oriented towards modern life."
-msgstr ""
-
-#: patterns/section-image-with-text-4.php:26
-msgid "Learn more"
 msgstr ""
 
 #: patterns/section-three-columns.php:9
