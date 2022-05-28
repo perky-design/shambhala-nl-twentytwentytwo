@@ -16,7 +16,7 @@ return array(
 				<!-- /wp:spacer -->
 
 				<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.25","fontStyle":"normal","fontWeight":"300","fontSize":"34px"}}} -->
-				<p class="has-text-align-center" style="font-size:34px;font-style:normal;font-weight:300;line-height:1.25">' . esc_html__( 'Shambhala is based on trust in human dignity. We offer a path of meditation practice and contemplative arts oriented towards modern life. Our communities around the world cultivate kindness, bravery, and genuine dialogue.  Our vision is to inspire compassionate, sustainable, and just human societies..', 'shambhala-twentytwentytwo' ) . '</p>
+				<p class="has-text-align-center" style="font-size:34px;font-style:normal;font-weight:300;line-height:1.25">' . esc_html__( 'Shambhala is based on trust in human dignity. We offer a path of meditation practice and contemplative arts oriented towards modern life. Our communities around the world cultivate kindness, bravery, and genuine dialogue. Our vision is to inspire compassionate, sustainable, and just human societies..', 'shambhala-twentytwentytwo' ) . '</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:spacer -->
