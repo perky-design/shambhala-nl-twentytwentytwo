@@ -19,19 +19,19 @@ function shambhala_twentytwentytwo_register_block_patterns() {
 
 	$block_pattern_categories = array(
 		'sh-section' => array(
-			'label'         => $label . __( 'Section', 'shambhala-twentytwentytwo' ),
+			'label'         => $label . __( 'Sections', 'shambhala-twentytwentytwo' ),
 			'categoryTypes' => array( 'shambhala-twentytwentytwo' ),
 		),
 		'sh-page'    => array(
-			'label'         => $label . __( 'Page', 'shambhala-twentytwentytwo' ),
+			'label'         => $label . __( 'Pages', 'shambhala-twentytwentytwo' ),
 			'categoryTypes' => array( 'shambhala-twentytwentytwo' ),
 		),
 		'sh-header'  => array(
-			'label'         => $label . __( 'Header', 'shambhala-twentytwentytwo' ),
+			'label'         => $label . __( 'Headers', 'shambhala-twentytwentytwo' ),
 			'categoryTypes' => array( 'shambhala-twentytwentytwo' ),
 		),
 		'sh-footer'  => array(
-			'label'         => $label . __( 'Footer', 'shambhala-twentytwentytwo' ),
+			'label'         => $label . __( 'Footers', 'shambhala-twentytwentytwo' ),
 			'categoryTypes' => array( 'shambhala-twentytwentytwo' ),
 		),
 		'sh-query'   => array(
