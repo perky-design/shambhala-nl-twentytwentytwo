@@ -9,6 +9,8 @@ h6 {
 	color: var(--wp--preset--color--black) !important;
 }
 
+.has-text-color a,
+.has-foreground-color.has-text-color a,
 .has-background-color.has-text-color a {
 	color: inherit !important;
 }
