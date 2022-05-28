@@ -1,12 +1,12 @@
 <?php
 /**
- * Landing page with welcome text and sections.
+ * Page pattern for Shambhala centre page.
  *
  * @package Shambhala Twenty Twenty-Two
  */
 
 return array(
-	'title'      => __( 'Landing page with welcome text.', 'shambhala-twentytwentytwo' ),
+	'title'      => __( 'Landing page for Shambhala centre page.', 'shambhala-twentytwentytwo' ),
 	'categories' => array( 'sh-page' ),
 	'content'    => '<!-- wp:cover {"url":"' . esc_url( get_stylesheet_directory_uri() . '/assets/images/arnhem-centrum-west-rijn.jpg' ) . '","id":3028,"dimRatio":20,"focalPoint":{"x":"0.84","y":"0.81"},"minHeight":800,"minHeightUnit":"px","isDark":false,"align":"full"} -->
 	<div class="wp-block-cover alignfull is-light" style="min-height:800px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-20 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-3028" alt="" src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/arnhem-centrum-west-rijn.jpg' ) . '" style="object-position:84% 81%" data-object-fit="cover" data-object-position="84% 81%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"inherit":false,"contentSize":"1200px"}} -->

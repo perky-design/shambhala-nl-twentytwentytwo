@@ -6,7 +6,7 @@
  */
 
 return array(
-	'title'      => __( 'Landing page with welcome text.', 'shambhala-twentytwentytwo' ),
+	'title'      => __( 'Landing page pattern for content heavy pages.', 'shambhala-twentytwentytwo' ),
 	'categories' => array( 'sh-page' ),
 	'content'    => '<!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"lineHeight":"1","fontSize":"clamp(2rem, 8.7vw - 1.5rem, 5rem)"}},"className":"width-full-size"} -->
 		<h1 class="has-text-align-center width-full-size" style="font-size:clamp(2rem, 8.7vw - 1.5rem, 5rem);line-height:1">' . esc_html__( 'The Shambhala Path', 'shambhala-twentytwentytwo' ) . '</h1>
@@ -89,19 +89,33 @@ return array(
 		<!-- wp:spacer {"height":"50px"} -->
 		<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
-<!-- wp:media-text {"mediaLink":"#","mediaType":"image","verticalAlignment":"center","imageFill":false,"backgroundColor":"accent-color","textColor":"background","className":"is-style-default"} -->
-		<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center is-style-default has-background-color has-accent-color-background-color has-text-color has-background"><figure class="wp-block-media-text__media"><img src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/ikebana-gong.jpg' ) . '" alt="' . esc_html__( 'A meditation gong and an ikebana', 'shambhala-twentytwentytwo' ) . '"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"textColor":"background"} -->
-		<h2 class="has-background-color has-text-color">' . esc_html__( 'Shambhala Kado', 'shambhala-twentytwentytwo' ) . '</h2>
+
+		<!-- wp:columns {"align":"wide"} -->
+		<div class="wp-block-columns alignwide"><!-- wp:column -->
+		<div class="wp-block-column"><!-- wp:heading {"fontSize":"x-large"} -->
+		<h2 class="has-x-large-font-size">Lorem ipsum dolor sit amet</h2>
 		<!-- /wp:heading -->
 
-		<!-- wp:paragraph {"className":"has-text-color"} -->
-		<p class="has-text-color">' . esc_html__( 'The word Kado is Chinese, meaning “Way or Path of Flowers,” and is utilized to claim the Chinese cultural origin and lineage of the contemplative art and practice. Japan imported the way from China some 1600 years ago and eventually changed the practice\'s name to Ikebana, meaning “Natural Flowers.', 'shambhala-twentytwentytwo' ) . '.”</p>
+		<!-- wp:paragraph -->
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec enim diam vulputate ut pharetra. Urna cursus eget nunc scelerisque viverra. Varius sit amet mattis vulputate. Pharetra convallis posuere morbi leo urna molestie at. Faucibus purus in massa tempor nec feugiat. Faucibus et molestie ac feugiat sed lectus vestibulum mattis. Sagittis aliquam malesuada bibendum arcu vitae elementum. Id aliquet lectus proin nibh nisl condimentum id. Vel fringilla est ullamcorper eget nulla facilisi. Fermentum leo vel orci porta non pulvinar neque. Dapibus ultrices in iaculis nunc sed. Fermentum leo vel orci porta. Sit amet dictum sit amet justo donec. Adipiscing vitae proin sagittis nisl rhoncus. Molestie at elementum eu facilisis sed odio morbi. Arcu ac tortor dignissim convallis aenean et tortor at risus. Urna neque viverra justo nec ultrices dui sapien.</p>
+		<!-- /wp:paragraph --></div>
+		<!-- /wp:column -->
+
+		<!-- wp:column -->
+		<div class="wp-block-column"><!-- wp:paragraph -->
+		<p>Nascetur ridiculus mus mauris vitae. Magna eget est lorem ipsum dolor sit amet consectetur adipiscing. Semper viverra nam libero justo laoreet. Pharetra convallis posuere morbi leo urna. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. Eget velit aliquet sagittis id consectetur purus. Turpis cursus in hac habitasse platea dictumst quisque. </p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:paragraph {"textColor":"background"} -->
-		<p class="has-background-color has-text-color">' . /* translators: %s is replaced with "link" */ sprintf( esc_html__( 'Kado classes and retreats are offered in Europe and the United States. For further information, please visit %s.', 'shambhala-twentytwentytwo' ), '<a href="http://kado.shambhala.info">kado.shambhala.info</a>' ) . '</p>
-		<!-- /wp:paragraph --></div></div>
-		<!-- /wp:media-text -->
+		<!-- wp:heading {"level":3,"fontSize":"large"} -->
+		<h3 class="has-large-font-size">Risus ultricies tristique nulla aliquet enim tortor at auctor. </h3>
+		<!-- /wp:heading -->
+
+		<!-- wp:paragraph -->
+		<p>Amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Ligula ullamcorper malesuada proin libero nunc. Auctor augue mauris augue neque gravida. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Nullam non nisi est sit amet facilisis magna. Pellentesque habitant morbi tristique senectus et netus et malesuada. Fringilla urna porttitor rhoncus dolor. Laoreet id donec ultrices tincidunt.</p>
+		<!-- /wp:paragraph --></div>
+		<!-- /wp:column --></div>
+		<!-- /wp:columns -->
+
 		<!-- wp:spacer {"height":"50px"} -->
 		<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->',
