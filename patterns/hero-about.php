@@ -11,8 +11,7 @@
 return array(
 	'title'       => __( 'About Hero', 'shambhala-twentytwentytwo' ),
 	'categories'  => array( 'sh-section' ),
-	'description' => _x( 'About Hero with description and buttons', 'Cover photo, headline, a short text and buttons.', 'shambhala-twentytwentytwo' ),
-	'blockTypes'  => array( 'core/template-part/footer' ),
+	'description' => _x( 'About Hero with description and buttons', 'shambhala-twentytwentytwo' ),
 	'content'     => '<!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( '/assets/images/shambhala-meditators-shrine.jpg' ) ) . '","id":2145,"dimRatio":40,"focalPoint":{"x":"0.54","y":"0.35"},"minHeight":800,"minHeightUnit":"px","isDark":false,"align":"full"} -->
 <div class="wp-block-cover alignfull is-light" style="min-height:800px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-40 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2145" alt="' . esc_html__( 'Meditators in Shambhala shrine room', 'shambhala-twentytwentytwo' ) . '" src="' . esc_url( get_theme_file_uri( '/assets/images/shambhala-meditators-shrine.jpg' ) ) . '" style="object-position:54% 35%" data-object-fit="cover" data-object-position="54% 35%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"inherit":false,"contentSize":"1200px"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":1,"textColor":"background","fontSize":"x-large"} -->
