@@ -62,6 +62,7 @@ function shambhala_twentytwentytwo_register_block_patterns() {
 	$block_patterns = array(
 		'footer-default',
 		'header-default',
+		'hero-text-background-color',
 		'hero-about',
 		'hidden-404',
 		'page-landing-hero',
