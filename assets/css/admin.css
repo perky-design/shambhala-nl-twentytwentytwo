@@ -136,6 +136,10 @@ h6 {
 	color: var(--wp--preset--color--black) !important;
 }
 
+strong {
+	font-weight: 900;
+}
+
 .has-background-color.has-text-color a {
 	color: inherit !important;
 }
@@ -173,3 +177,12 @@ h6 {
 }
 
 /* End Google maps custom HTML */
+
+
+/* Cover image hero with text with background */
+.cover-image-with-text-has-background h1.has-background,
+.cover-image-with-text-has-background p {
+	padding: 1.25rem 2.375rem !important;
+}
+
+/* End Cover image hero with text with background */
