@@ -71,6 +71,7 @@ function shambhala_twentytwentytwo_register_block_patterns() {
 		'query-grid',
 		'query-small',
 		'section-description-text',
+		'section-team',
 		'section-image-with-text-1',
 		'section-image-with-text-2',
 		'section-image-with-text-3',

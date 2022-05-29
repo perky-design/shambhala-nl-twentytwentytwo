@@ -89,3 +89,24 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+== Copyright ==
+
+Block Pattern Images:
+
+"Meet the team"
+https://www.rawpixel.com/image/326809/freckled-young-boy-smiling-portrait
+https://www.rawpixel.com/image/388397/free-photo-image-black-man-portrait-man-smiling
+https://www.rawpixel.com/image/2923073/free-illustration-png-man-portrait-happy-men
+https://www.rawpixel.com/image/2330284/free-photo-image-portrait-woman-face
+https://www.rawpixel.com/image/211565/woman-plaid
+https://www.rawpixel.com/image/986/free-photo-image-portrait-man-men
+https://www.rawpixel.com/image/950/free-photo-image-portrait-man-occupation
+https://www.rawpixel.com/image/1313/free-photo-image-portrait-headshot-woman-face
+https://www.rawpixel.com/image/934/free-photo-image-portrait-face-woman
+https://www.rawpixel.com/image/172564/beautiful-artsy-woman
+https://www.rawpixel.com/image/994/free-photo-image-portrait-men-asian-man
+https://www.rawpixel.com/image/326442/free-photo-image-portrait-old-woman
+https://www.rawpixel.com/image/3233182/free-illustration-png-portrait-tee-adult
+https://www.rawpixel.com/image/3933751/illustration-png-face-sticker
+https://www.rawpixel.com/image/986/free-photo-image-portrait-man-men
