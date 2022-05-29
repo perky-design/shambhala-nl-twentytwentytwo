@@ -8,17 +8,25 @@
 return array(
 	'title'      => __( 'Landing page for Shambhala centre page.', 'shambhala-twentytwentytwo' ),
 	'categories' => array( 'sh-page' ),
-	'content'    => '<!-- wp:cover {"url":"' . esc_url( get_stylesheet_directory_uri() . '/assets/images/arnhem-centrum-west-rijn.jpg' ) . '","id":3028,"dimRatio":20,"focalPoint":{"x":"0.84","y":"0.81"},"minHeight":800,"minHeightUnit":"px","isDark":false,"align":"full"} -->
-	<div class="wp-block-cover alignfull is-light" style="min-height:800px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-20 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-3028" alt="" src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/arnhem-centrum-west-rijn.jpg' ) . '" style="object-position:84% 81%" data-object-fit="cover" data-object-position="84% 81%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"inherit":false,"contentSize":"1200px"}} -->
-	<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":1,"textColor":"background"} -->
-	<h1 class="has-text-align-center has-background-color has-text-color" id="about-us">' . esc_html__( 'Shambhala Meditation Centre Arnhem', 'shambhala-twentytwentytwo' ) . '</h1>
-	<!-- /wp:heading -->
+	'content'    => '<!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( '/assets/images/arnhem-centrum-west-rijn.jpg' ) ) . '","id":3149,"dimRatio":20,"focalPoint":{"x":"0.52","y":"0.33"},"minHeight":800,"minHeightUnit":"px","isDark":false,"align":"full","className":"cover-image-with-text-has-background"} -->
+<div class="wp-block-cover alignfull is-light cover-image-with-text-has-background" style="min-height:800px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-20 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-3149" alt="" src="' . esc_url( get_theme_file_uri( '/assets/images/arnhem-centrum-west-rijn.jpg' ) ) . '" style="object-position:52% 33%" data-object-fit="cover" data-object-position="52% 33%"/><div class="wp-block-cover__inner-container"><!-- wp:columns {"className":"width-full-size "} -->
+<div class="wp-block-columns width-full-size"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"layout":{"inherit":false}} -->
+<div class="wp-block-group"><!-- wp:spacer {"height":"400px"} -->
+<div style="height:400px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
 
-	<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
-	<div class="wp-block-buttons"><!-- wp:button /--></div>
-	<!-- /wp:buttons --></div>
-	<!-- /wp:group --></div></div>
-	<!-- /wp:cover -->
+<!-- wp:heading {"level":1,"backgroundColor":"primary","textColor":"background","className":"width-content-size","fontSize":"x-large"} -->
+<h1 class="width-content-size has-background-color has-primary-background-color has-text-color has-background has-x-large-font-size">' . esc_html__( 'Shambhala Arnhem', 'shambhala-twentytwentytwo' ) . '</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"left","backgroundColor":"primary","textColor":"background","className":"width-content-size","fontSize":"lead"} -->
+<p class="has-text-align-left width-content-size has-background-color has-primary-background-color has-text-color has-background has-lead-font-size">' . esc_html__( 'Shambhala is a global community of people inspired by the principle that every human being has a fundamental nature of basic goodness.', 'shambhala-twentytwentytwo' ) . '</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div></div>
+<!-- /wp:cover -->
 
 	<!-- wp:spacer {"height":"50px"} -->
 	<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>

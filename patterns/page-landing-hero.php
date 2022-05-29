@@ -16,26 +16,24 @@ if ( $news_page_id ) {
 return array(
 	'title'      => __( 'Landing page with hero image.', 'shambhala-twentytwentytwo' ),
 	'categories' => array( 'sh-page' ),
-	'content'    => '<!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( '/assets/images/shambhala-meditators-shrine.jpg' ) ) . '","id":2145,"dimRatio":40,"focalPoint":{"x":"0.54","y":"0.35"},"minHeight":800,"minHeightUnit":"px","isDark":false,"align":"full"} -->
-<div class="wp-block-cover alignfull is-light" style="min-height:800px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-40 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2145" alt="' . esc_html__( 'Meditators in Shambhala shrine room', 'shambhala-twentytwentytwo' ) . '" src="' . esc_url( get_theme_file_uri( '/assets/images/shambhala-meditators-shrine.jpg' ) ) . '" style="object-position:54% 35%" data-object-fit="cover" data-object-position="54% 35%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"inherit":false,"contentSize":"1200px"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":1,"textColor":"background","fontSize":"x-large"} -->
-<h1 class="has-text-align-center has-background-color has-text-color has-x-large-font-size" id="about-us">' . esc_html__( 'Shambhala: a global community', 'shambhala-twentytwentytwo' ) . '</h1>
+	'content'    => '<!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( '/assets/images/meditator-under-tree.jpg' ) ) . '","id":3149,"dimRatio":20,"focalPoint":{"x":"0.52","y":"0.33"},"minHeight":800,"minHeightUnit":"px","isDark":false,"align":"full","className":"cover-image-with-text-has-background"} -->
+<div class="wp-block-cover alignfull is-light cover-image-with-text-has-background" style="min-height:800px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-20 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-3149" alt="" src="' . esc_url( get_theme_file_uri( '/assets/images/meditator-under-tree.jpg' ) ) . '" style="object-position:52% 33%" data-object-fit="cover" data-object-position="52% 33%"/><div class="wp-block-cover__inner-container"><!-- wp:columns {"className":"width-full-size "} -->
+<div class="wp-block-columns width-full-size"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"layout":{"inherit":false}} -->
+<div class="wp-block-group"><!-- wp:spacer {"height":"400px"} -->
+<div style="height:400px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:heading {"level":1,"backgroundColor":"primary","textColor":"background","className":"width-content-size","fontSize":"x-large"} -->
+<h1 class="width-content-size has-background-color has-primary-background-color has-text-color has-background has-x-large-font-size">' . esc_html__( 'Shambhala: a global community', 'shambhala-twentytwentytwo' ) . '</h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","textColor":"background","className":"width-content-size","fontSize":"lead"} -->
-<p class="has-text-align-center width-content-size has-background-color has-text-color has-lead-font-size">' . esc_html__( 'Shambhala is a global community of people inspired by the principle that every human being has a fundamental nature of basic goodness.', 'shambhala-twentytwentytwo' ) . '</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-green"} -->
-<div class="wp-block-button is-style-green"><a class="wp-block-button__link">' . esc_html__( 'Find a centre', 'shambhala-twentytwentytwo' ) . '</a></div>
-<!-- /wp:button -->
-
-<!-- wp:button {"textColor":"background","className":"is-style-white-link is-style-outline"} -->
-<div class="wp-block-button is-style-white-link is-style-outline"><a class="wp-block-button__link has-background-color has-text-color">' . esc_html__( 'Calendar', 'shambhala-twentytwentytwo' ) . '</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons --></div>
-<!-- /wp:group --></div></div>
+<!-- wp:paragraph {"align":"left","backgroundColor":"primary","textColor":"background","className":"width-content-size","fontSize":"lead"} -->
+<p class="has-text-align-left width-content-size has-background-color has-primary-background-color has-text-color has-background has-lead-font-size">' . esc_html__( 'Shambhala is a global community of people inspired by the principle that every human being has a fundamental nature of basic goodness.', 'shambhala-twentytwentytwo' ) . '</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:spacer {"height":"50px"} -->
