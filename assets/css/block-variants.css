@@ -40,3 +40,11 @@
 }
 
 /* End Query list small styling  */
+
+/* Cover image hero with text with background */
+.cover-image-with-text-has-background h1.has-background,
+.cover-image-with-text-has-background p {
+	padding: 1.25rem 2.375rem !important;
+}
+
+/* End Cover image hero with text with background */

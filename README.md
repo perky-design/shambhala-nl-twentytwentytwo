@@ -59,6 +59,8 @@ To fix the JS, use the command: ```npm run lint-fix:js```
 
 ## Changelog
 
+0.1.4 Add hero cover variant
+
 0.1.3 Add meet the team block pattern
 
 0.1.2 Update patterns
@@ -74,6 +76,7 @@ To fix the JS, use the command: ```npm run lint-fix:js```
 * Check PHP with ```composer standards:check```
 * Check JS with ```npm run lint:js```
 * Check CSS with ```npm run lint:css```
+* Check and update translations
 * Create release branch in Git
 * Update version number in composer.json, package.json, and style.css
 * Update Changelog in readme.txt and README.md
@@ -115,3 +118,7 @@ https://www.rawpixel.com/image/326442/free-photo-image-portrait-old-woman
 https://www.rawpixel.com/image/3233182/free-illustration-png-portrait-tee-adult
 https://www.rawpixel.com/image/3933751/illustration-png-face-sticker
 https://www.rawpixel.com/image/986/free-photo-image-portrait-man-men
+
+"Hero image variant"
+https://www.rawpixel.com/image/5945441/free-public-domain-cc0-photo
+
