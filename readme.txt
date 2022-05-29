@@ -57,6 +57,7 @@ To fix the JS, use the command: ```npm run lint-fix:js```
 
 == Changelog ==
 
+0.1.3 Add meet the team block pattern
 0.1.2 Update patterns
 0.1.1 Small bug fixes and typos
 0.1.0 Added Block Pattern
@@ -66,7 +67,9 @@ To fix the JS, use the command: ```npm run lint-fix:js```
 
 Check PHP with ```composer standards:check```
 
-Check CSS with ```npm run lint:js```
+Check JS with ```npm run lint:js```
+
+Check CSS with ```npm run lint:css```
 
 Create release branch in Git
 
