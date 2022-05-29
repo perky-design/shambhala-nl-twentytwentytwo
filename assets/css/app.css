@@ -9,6 +9,10 @@ h6 {
 	color: var(--wp--preset--color--black) !important;
 }
 
+strong {
+	font-weight: 900;
+}
+
 .has-text-color a,
 .has-foreground-color.has-text-color a,
 .has-background-color.has-text-color a {
@@ -63,6 +67,33 @@ header .wp-block-navigation .wp-block-navigation-item__content {
 }
 
 /* End Utility classes */
+
+/* PAge title & the yellow line under the page title */
+.wp-block-post-title {
+	padding-bottom: calc(var(--wp--style--block-gap) * 2);
+	font-weight: 600;
+}
+
+.wp-block-separator-after-title-featured-image {
+	border-color: var(--wp--preset--color--secondary) !important;
+	position: relative;
+	text-align: center;
+}
+
+.wp-block-separator-after-title-featured-image::after {
+	content: "\002702";
+	display: block;
+	position: absolute;
+	top: -12px;
+	right: 0;
+	padding: 0 3px;
+	background: #fff;
+	color: #fff;
+	font-size: 18px;
+	width: 82%;
+}
+
+/* End The yellow line under the page title */
 
 /* Footer styling */
 footer.wp-block-template-part {
