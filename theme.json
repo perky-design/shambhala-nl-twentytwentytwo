@@ -297,7 +297,7 @@
 					"fontFamily": "var(--wp--preset--font-family--roboto-slab)",
 					"fontWeight": "500",
 					"lineHeight": "var(--wp--custom--typography--line-height--tiny)",
-					"fontSize": "var(--wp--custom--typography--font-size--colossal)"
+					"fontSize": "var(--wp--custom--typography--font-size--gigantic)"
 				}
 			},
 			"h2": {
@@ -305,7 +305,7 @@
 					"fontFamily": "var(--wp--preset--font-family--roboto-slab)",
 					"fontWeight": "500",
 					"lineHeight": "var(--wp--custom--typography--line-height--small)",
-					"fontSize": "var(--wp--custom--typography--font-size--gigantic)"
+					"fontSize": "var(--wp--preset--font-size--x-large)"
 				}
 			},
 			"h3": {
@@ -313,32 +313,33 @@
 					"fontFamily": "var(--wp--preset--font-family--roboto-slab)",
 					"fontWeight": "500",
 					"lineHeight": "var(--wp--custom--typography--line-height--tiny)",
-					"fontSize": "var(--wp--custom--typography--font-size--huge)"
+					"fontSize": "var(--wp--preset--font-size--large)"
 				}
 			},
 			"h4": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--roboto-slab)",
 					"fontWeight": "500",
+					"textTransform": "uppercase",
 					"lineHeight": "var(--wp--custom--typography--line-height--tiny)",
-					"fontSize": "var(--wp--preset--font-size--x-large)"
+					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-font)",
+					"fontFamily": "var(--wp--preset--font-family--roboto-slab)",
 					"fontWeight": "700",
-					"textTransform": "uppercase",
+					"textTransform": "none",
 					"lineHeight": "var(--wp--custom--typography--line-height--normal)",
-					"fontSize": "var(--wp--preset--font-size--medium)",
-          "color": "var(--wp--preset--color--black)"
+					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
 			},
 			"h6": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system-font)",
-					"fontWeight": "400",
-					"textTransform": "uppercase",
+					"fontWeight": "700",
+					"fontStyle": "italic",
+					"textTransform": "none",
 					"lineHeight": "var(--wp--custom--typography--line-height--normal)",
 					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
