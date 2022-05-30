@@ -2,10 +2,20 @@
 
 <!-- wp:group {"tagName":"main"} -->
 <main class="wp-block-group"><!-- wp:group {"layout":{"inherit":true}} -->
-<div class="wp-block-group">
-<!-- wp:pattern {"slug":"twentytwentytwo/hidden-404"} /-->
-</div>
+
+<!-- wp:pattern {"slug":"shambhala-twentytwentytwo/hidden-404"} /-->
+
+<!-- wp:spacer {"height":32} -->
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
 <!-- /wp:group --></main>
 <!-- /wp:group -->
 
+<script>
+window.onload = function() {
+	var input = document.getElementById("wp-block-search__input-1").focus();
+}
+</script>
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
+
