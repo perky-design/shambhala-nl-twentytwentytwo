@@ -6,17 +6,26 @@ h3,
 h4,
 h5,
 h6 {
-	color: var(--wp--preset--color--black) !important;
+	color: var(--wp--preset--color--black);
 }
 
 strong {
-	font-weight: 900;
+	font-weight: 700;
 }
 
 .has-text-color a,
 .has-foreground-color.has-text-color a,
 .has-background-color.has-text-color a {
 	color: inherit !important;
+}
+
+.link-no-underline a {
+	text-decoration: none;
+}
+
+.link-no-underline a:hover {
+	text-decoration: underline;
+	text-decoration-style: dashed;
 }
 
 /* End Typography */

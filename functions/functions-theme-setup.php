@@ -28,7 +28,7 @@ function shambhala_twentytwentytwo_enqueue_scripts() {
 	// Header font.
 	wp_register_style(
 		'shambhala-twentytwentytwo-font-roboto-slab',
-		'https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap',
+		'https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap',
 		array( 'twentytwentytwo-style' ),
 		$version_string
 	);
@@ -37,7 +37,7 @@ function shambhala_twentytwentytwo_enqueue_scripts() {
 	// Load Google font for body text.
 	wp_register_style(
 		'shambhala-twentytwentytwo-font-poppins',
-		'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,100;1,300&display=swap',
+		'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,500;1,700&display=swap',
 		array(),
 		$version_string
 	);
@@ -161,6 +161,29 @@ function shambhala_twentytwentytwo_enqueue() {
 			'name'         => 'rounded-image',
 			'label'        => __( 'Rounded image', 'shambhala-twentytwentytwo' ),
 			'inline_style' => '.wp-block-media-text.is-style-rounded-image img { border-radius: 50%; }',
+		)
+	);
+
+	// Heading capitalized small.
+	wp_enqueue_script(
+		'heading-capitalized-script',
+		get_stylesheet_directory_uri() . '/assets/js/heading-capitalized.js',
+		array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' ),
+		shambhala_twentytwentytwo_version(),
+		true
+	);
+
+	register_block_style(
+		'core/heading',
+		array(
+			'name'         => 'heading-capitalized',
+			'label'        => __( 'Capitalized', 'shambhala-twentytwentytwo' ),
+			'inline_style' => '.wp-block-heading.is-style-heading-capitalized {
+				font-family: var(--wp--preset--font-family--poppins) !important;
+				font-size: var(--wp--preset--font-size--large);
+				color: var(--wp--preset--color--primary);
+				font-weight: 700;
+				text-transform: uppercase; }',
 		)
 	);
 

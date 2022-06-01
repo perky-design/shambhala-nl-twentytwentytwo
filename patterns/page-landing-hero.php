@@ -141,7 +141,7 @@ return array(
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:paragraph {"align":"right"} -->
-<p class="has-text-align-right"><a href="#">All news;</a></p>
+<p class="has-text-align-right"><a href="#">All news</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -177,7 +177,7 @@ return array(
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:paragraph {"align":"right"} -->
-<p class="has-text-align-right"><a href="#">All news;</a></p>
+<p class="has-text-align-right"><a href="#">All news</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
