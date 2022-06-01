@@ -20,12 +20,12 @@ return array(
 	<div style="height:400px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 
-	<!-- wp:heading {"level":1,"backgroundColor":"primary","textColor":"background","className":"width-content-size","fontSize":"x-large"} -->
-	<h1 class="width-content-size has-background-color has-primary-background-color has-text-color has-background has-x-large-font-size">' . esc_html__( 'About Shambhala', 'shambhala-twentytwentytwo' ) . '</h1>
+	<!-- wp:heading {"level":1,"backgroundColor":"primary","textColor":"background"} -->
+	<h1 class="has-background-color has-primary-background-color has-text-color has-background">' . esc_html__( 'About Shambhala', 'shambhala-twentytwentytwo' ) . '</h1>
 	<!-- /wp:heading -->
 
-	<!-- wp:paragraph {"align":"left","backgroundColor":"primary","textColor":"background","className":"width-content-size","fontSize":"lead"} -->
-	<p class="has-text-align-left width-content-size has-background-color has-primary-background-color has-text-color has-background has-lead-font-size">' . esc_html__( 'Through awakening our inherent goodness and potential as human beings – as individuals and as social networks and communities – we can help to foster an awake and compassionate global human society.', 'shambhala-twentytwentytwo' ) . '</p>
+	<!-- wp:paragraph {"align":"left","backgroundColor":"primary","textColor":"background",fontSize":"lead"} -->
+	<p class="has-text-align-left has-background-color has-primary-background-color has-text-color has-background has-lead-font-size">' . esc_html__( 'Through awakening our inherent goodness and potential as human beings – as individuals and as social networks and communities – we can help to foster an awake and compassionate global human society.', 'shambhala-twentytwentytwo' ) . '</p>
 	<!-- /wp:paragraph --></div>
 	<!-- /wp:group --></div>
 	<!-- /wp:column --></div>

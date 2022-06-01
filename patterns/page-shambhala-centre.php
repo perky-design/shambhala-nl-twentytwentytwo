@@ -24,8 +24,8 @@ return array(
 		<!-- /wp:columns --></div></div>
 		<!-- /wp:cover -->
 
-		<!-- wp:spacer {"height":"50px"} -->
-		<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- wp:spacer {"height":"32px"} -->
+		<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 
 		<!-- wp:heading {"align":"wide","fontSize":"x-large"} -->
@@ -113,8 +113,8 @@ return array(
 		<p>Wij organiseren wekelijks, meerdere evenementen en activiteiten.</p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:spacer {"height":"25px"} -->
-		<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- wp:spacer {"height":"32px"} -->
+		<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 
 		<!-- wp:buttons -->

@@ -36,8 +36,8 @@ return array(
 <!-- /wp:columns --></div></div>
 <!-- /wp:cover -->
 
-<!-- wp:spacer {"height":"50px"} -->
-<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"32px"} -->
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"align":"wide","fontSize":"x-large"} -->
@@ -94,8 +94,8 @@ return array(
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:spacer {"height":"50px"} -->
-<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"32px"} -->
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
 <!-- wp:group {"align":"full","backgroundColor":"primary","textColor":"secondary","layout":{"inherit":true}} -->
@@ -114,8 +114,8 @@ return array(
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:spacer {"height":"50px"} -->
-<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"32px"} -->
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
 <!-- wp:media-text {"mediaLink":"#","mediaType":"image","mediaWidth":56,"verticalAlignment":"center","imageFill":false,"className":"is-style-default"} -->

@@ -16,8 +16,8 @@ return array(
 		<p class="has-text-align-center has-max-60-font-size" style="line-height:1.25">' . esc_html__( 'The Path of Practice and Study', 'shambhala-twentytwentytwo' ) . '</p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:spacer {"height":"50px"} -->
-		<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- wp:spacer {"height":"32px"} -->
+		<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 
 		<!-- wp:columns {"align":"wide"} -->
@@ -34,8 +34,8 @@ return array(
 		<!-- /wp:column --></div>
 		<!-- /wp:columns -->
 
-		<!-- wp:spacer {"height":"50px"} -->
-		<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- wp:spacer {"height":"32px"} -->
+		<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 
 		<!-- wp:media-text {"mediaPosition":"right","mediaId":2812,"mediaLink":"' . esc_url( get_stylesheet_directory_uri() . '/assets/images/meditatators.jpg' ) . '","mediaType":"image","mediaSizeSlug":"full","verticalAlignment":"center","imageFill":false,"backgroundColor":"foreground","textColor":"background","className":"is-style-default"} -->
@@ -48,8 +48,8 @@ return array(
 		<!-- /wp:paragraph --></div></div>
 		<!-- /wp:media-text -->
 
-		<!-- wp:spacer {"height":"50px"} -->
-		<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- wp:spacer {"height":"32px"} -->
+		<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 
 		<!-- wp:group {"align":"full","backgroundColor":"primary","textColor":"secondary","layout":{"inherit":true}} -->
@@ -68,8 +68,8 @@ return array(
 		<!-- /wp:group --></div>
 		<!-- /wp:group -->
 
-		<!-- wp:spacer {"height":"50px"} -->
-		<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- wp:spacer {"height":"32px"} -->
+		<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 
 		<!-- wp:media-text {"mediaId":2819,"mediaLink":"' . esc_url( get_stylesheet_directory_uri() . '/assets/images/ashe-on-paper.jpg' ) . '","mediaType":"image","mediaSizeSlug":"full","verticalAlignment":"center","imageFill":false,"backgroundColor":"foreground","textColor":"background","className":"is-style-default"} -->
@@ -86,8 +86,8 @@ return array(
 		<!-- /wp:paragraph --></div></div>
 		<!-- /wp:media-text -->
 
-		<!-- wp:spacer {"height":"50px"} -->
-		<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- wp:spacer {"height":"32px"} -->
+		<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 
 		<!-- wp:columns {"align":"wide"} -->
@@ -116,7 +116,7 @@ return array(
 		<!-- /wp:column --></div>
 		<!-- /wp:columns -->
 
-		<!-- wp:spacer {"height":"50px"} -->
-		<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- wp:spacer {"height":"32px"} -->
+		<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->',
 );
