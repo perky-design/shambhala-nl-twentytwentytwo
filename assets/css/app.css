@@ -40,6 +40,7 @@ strong {
 /* End Typography */
 
 
+
 .two-column-both-text {
 	gap: calc(var(--wp--style--block-gap, 1.5em) * 1.6) !important;
 }
@@ -53,7 +54,24 @@ header .wp-block-navigation .wp-block-navigation-item__content {
 /* End Header menu */
 
 /* Menu styling */
+
+@media (max-width: 599px) {
+
+	header.wp-block-template-part {
+		margin-block-start: var(--wp--style--block-gap);
+	}
+
+	.site-logo img {
+		max-width: 216px;
+	}
+
+}
+
 @media (min-width: 600px) {
+
+	.site-logo img {
+		max-width: 312px;
+	}
 
 	.wp-block-navigation .has-child :where(.wp-block-navigation__submenu-container) > .wp-block-navigation-item > .wp-block-navigation-item__content {
 		flex-grow: 0;
