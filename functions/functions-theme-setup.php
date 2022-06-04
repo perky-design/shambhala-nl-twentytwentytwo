@@ -178,12 +178,13 @@ function shambhala_twentytwentytwo_enqueue() {
 		array(
 			'name'         => 'heading-capitalized',
 			'label'        => __( 'Capitalized', 'shambhala-twentytwentytwo' ),
-			'inline_style' => '.wp-block-heading.is-style-heading-capitalized {
-				font-family: var(--wp--preset--font-family--poppins) !important;
-				font-size: var(--wp--preset--font-size--large);
-				color: var(--wp--preset--color--primary);
-				font-weight: 700;
-				text-transform: uppercase; }',
+			'inline_style' => '.is-style-heading-capitalized {
+					font-family: var(--wp--preset--font-family--poppins) !important;
+					font-size: var(--wp--preset--font-size--medium);
+					color: var(--wp--preset--color--primary);
+					font-weight: 600;
+					text-transform: uppercase;
+					letter-spacing: 1.6px; }',
 		)
 	);
 

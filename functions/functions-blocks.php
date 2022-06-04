@@ -66,7 +66,7 @@ function shambhala_twentytwentytwo_register_block_patterns() {
 		'hidden-404',
 		'hidden-news-title',
 		'page-landing-hero',
-		'page-landing-welcome-text',
+		'page-landing-text',
 		'page-shambhala-centre',
 		'query-default',
 		'query-grid',

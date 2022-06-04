@@ -1,13 +1,14 @@
 /* Heading capitalized  */
 .is-style-heading-capitalized {
 	font-family: var(--wp--preset--font-family--poppins) !important;
-	font-size: var(--wp--preset--font-size--large);
+	font-size: var(--wp--preset--font-size--medium);
 	color: var(--wp--preset--color--primary);
-	font-weight: 700;
+	font-weight: 600;
 	text-transform: uppercase;
+	letter-spacing: 1.6px;
 }
 
-/* Ebd Heading capitalized  */
+/* End Heading capitalized  */
 
 /* Block media text with rounded image */
 .is-style-rounded-image img {
@@ -58,10 +59,6 @@
 .cover-image-with-text-has-background h1.has-background,
 .cover-image-with-text-has-background p {
 	padding: 1.25rem 2.375rem !important;
-}
-
-.cover-image-with-text-has-background h1.has-background {
-	display: inline-block;
 }
 
 /* End Cover image hero with text with background */

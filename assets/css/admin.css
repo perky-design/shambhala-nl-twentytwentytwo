@@ -325,19 +325,20 @@ h3,
 h4,
 h5,
 h6 {
-	color: var(--wp--preset--color--black) !important;
+	color: var(--wp--preset--color--black);
 }
 
 strong {
 	font-weight: 900;
 }
 
-.has-background-color.has-text-color a {
-	color: inherit !important;
+.wp-block-button__link {
+	text-transform: uppercase;
+	font-weight: 500;
 }
 
-.editor-styles-wrapper h2 {
-	text-transform: none !important;
+.has-background-color.has-text-color a {
+	color: inherit !important;
 }
 
 .width-content-size {
@@ -348,16 +349,25 @@ strong {
 	max-width: var(--wp--custom--width-full) !important;
 }
 
+.center-block {
+	margin: 0 auto !important;
+}
+
+.wp-block-media-text__content h2 {
+	margin-block-start: var(--wp--style--block-gap);
+}
+
 .is-style-rounded-image img {
 	border-radius: 50% !important;
 }
 
-.wp-block-heading.is-style-heading-capitalized {
+.editor-styles-wrapper .is-style-heading-capitalized {
 	font-family: var(--wp--preset--font-family--poppins) !important;
-	font-size: var(--wp--preset--font-size--large);
+	font-size: var(--wp--preset--font-size--medium);
 	color: var(--wp--preset--color--primary);
-	font-weight: 700;
+	font-weight: 600;
 	text-transform: uppercase;
+	letter-spacing: 1.6px;
 }
 
 /* Google maps custom HTML */
