@@ -262,3 +262,14 @@ function wshambhala_twentytwentytwo_translations() {
 }
 add_action( 'after_setup_theme', 'wshambhala_twentytwentytwo_translations' );
 
+/**
+ * Allow svg uploads for shambhala-twentytwentytwo.
+ *
+ * @param array $mimes mime types.
+ * @return array $mimes mime types.
+ */
+function shambhala_twentytwentytwo_mime_types( $mimes ) {
+	$mimes['svg'] = 'image/svg+xml';
+	return $mimes;
+}
+add_filter( 'upload_mimes', 'shambhala_twentytwentytwo_mime_types' );
