@@ -57,6 +57,7 @@ To fix the JS, use the command: ```npm run lint-fix:js```
 
 == Changelog ==
 
+0.1.5 Updated and added patterns
 0.1.4 Add hero cover variant
 0.1.3 Add meet the team block pattern
 0.1.2 Update patterns
