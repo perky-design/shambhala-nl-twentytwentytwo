@@ -120,6 +120,7 @@ if ( ! function_exists( 'shambhala_twentytwentytwo_preload_webfonts' ) ) :
 		?>
 			<link rel="preconnect" href="https://fonts.googleapis.com">
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<?php // phpcs:ignore WordPress.WP.EnqueuedResources.NonEnqueuedStylesheet ?>
 			<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
 		<?php
 	}

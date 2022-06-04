@@ -13,14 +13,14 @@ strong {
 	font-weight: 700;
 }
 
+.link-no-underline a {
+	text-decoration: none;
+}
+
 .has-text-color a,
 .has-foreground-color.has-text-color a,
 .has-background-color.has-text-color a {
 	color: inherit !important;
-}
-
-.link-no-underline a {
-	text-decoration: none;
 }
 
 .link-no-underline a:hover {
