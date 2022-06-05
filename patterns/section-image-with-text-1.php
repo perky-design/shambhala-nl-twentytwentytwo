@@ -17,7 +17,7 @@ return array(
 	<p class="has-text-color">' . esc_html__( 'Way of Shambhala is a complete introduction to the foundations of Shambhala Buddhism. This series of weekend contemplative workshops and weeknight classes provides an experiential overview of meditation practice, wisdom teachings, contemplative arts, and physical disciplines rooted in the ancient traditions of Shambhala and Tibetan Buddhism. This program is open to everyone and prepares students who wish to develop further their practice and study at Enlightened Society Assembly and Warrior Assembly.', 'shambhala-twentytwentytwo' ) . '</p>
 	<!-- /wp:paragraph --></div></div>
 	<!-- /wp:media-text -->
-	<!-- wp:spacer {"height":"50px"} -->
-	<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- wp:spacer {"height":"32px"} -->
+	<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->',
 );

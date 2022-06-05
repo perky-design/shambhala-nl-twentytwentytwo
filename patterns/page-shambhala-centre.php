@@ -114,8 +114,8 @@ return array(
 		<p>Wij organiseren wekelijks, meerdere evenementen en activiteiten.</p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:spacer {"height":"25px"} -->
-		<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- wp:spacer {"height":"32px"} -->
+		<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 
 		<!-- wp:buttons -->

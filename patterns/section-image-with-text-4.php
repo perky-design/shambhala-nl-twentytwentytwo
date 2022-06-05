@@ -21,8 +21,8 @@ return array(
 	<p>' . esc_html__( 'Shambhala is based on trust in human dignity. We offer a path of meditation practice and contemplative arts oriented towards modern life.', 'shambhala-twentytwentytwo' ) . '</p>
 	<!-- /wp:paragraph -->
 
-	<!-- wp:spacer {"height":"25px"} -->
-	<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- wp:spacer {"height":"32px"} -->
+	<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 
 	<!-- wp:buttons -->
@@ -32,8 +32,8 @@ return array(
 	<!-- /wp:buttons --></div></div>
 	<!-- /wp:media-text -->
 
-	<!-- wp:spacer {"height":"50px"} -->
-	<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- wp:spacer {"height":"32px"} -->
+	<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->',
 );
 

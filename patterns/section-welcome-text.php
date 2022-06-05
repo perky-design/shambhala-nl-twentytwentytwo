@@ -17,7 +17,7 @@ return array(
 		<p class="has-text-align-center has-max-60-font-size" style="line-height:1.25">' . esc_html__( 'Creating Enlighted Society', 'shambhala-twentytwentytwo' ) . '</p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:spacer {"height":"50px"} -->
-		<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- wp:spacer {"height":"32px"} -->
+		<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->',
 );

@@ -33,7 +33,7 @@ return array(
 
 		<!-- wp:column -->
 		<div class="wp-block-column"><!-- wp:image {"align":"center","id":3410,"sizeSlug":"large","linkDestination":"none"} -->
-		<figure class="wp-block-image aligncenter size-large"><img src="' . esc_url( get_theme_file_uri( '/assets/images/meditators-illustration.png' ) ) . '" alt="" class="wp-image-3410"/><figcaption>Meditatie in een Shambhala centrum</figcaption></figure>
+		<figure class="wp-block-image aligncenter size-large"><img src="' . esc_url( get_theme_file_uri( '/assets/images/meditators-left-1024x1024.jpeg' ) ) . '" alt="" class="wp-image-3410"/><figcaption>Meditatie in een Shambhala centrum</figcaption></figure>
 		<!-- /wp:image --></div>
 		<!-- /wp:column --></div>
 		<!-- /wp:columns -->
