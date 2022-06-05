@@ -80,7 +80,6 @@ function shambhala_twentytwentytwo_register_block_patterns() {
 		'section-team',
 		'section-three-columns',
 		'section-two-columns',
-		'section-welcome-text',
 	);
 
 	/**
