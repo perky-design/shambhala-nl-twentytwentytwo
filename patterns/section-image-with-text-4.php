@@ -7,7 +7,7 @@
 
 return array(
 	'title'      => __( 'Image with text 4.', 'shambhala-twentytwentytwo' ),
-	'categories' => array( 'sh-section' ),
+	'categories' => array( 'sh-section', 'featured' ),
 	'content'    => '<!-- wp:media-text {"mediaId":2901,"mediaLink":"' . esc_url( get_stylesheet_directory_uri() . '/assets/images/buddha-statue-circle.jpg' ) . '","mediaType":"image","mediaWidth":33,"verticalAlignment":"center","imageFill":false,"className":"rounded-image is-style-rounded-image"} -->
 	<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center rounded-image is-style-rounded-image" style="grid-template-columns:33% auto"><figure class="wp-block-media-text__media"><img src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/buddha-statue-circle.jpg' ) . '" alt="' . esc_html__( 'Buddha statue', 'shambhala-twentytwentytwo' ) . '" class="wp-image-2901 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"className":"is-style-heading-capitalized"} -->
 	<h2 class="is-style-heading-capitalized">' . esc_html__( 'Welcome', 'shambhala-twentytwentytwo' ) . '</h2>

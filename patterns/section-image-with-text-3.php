@@ -7,7 +7,7 @@
 
 return array(
 	'title'      => __( 'Image with text 3.', 'shambhala-twentytwentytwo' ),
-	'categories' => array( 'sh-section' ),
+	'categories' => array( 'sh-section', 'featured' ),
 	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"light-grey"} -->
 	<div class="wp-block-group alignfull has-light-grey-background-color has-background"><!-- wp:media-text {"mediaId":3442,"mediaLink":"' . esc_url( get_stylesheet_directory_uri() . '/assets/images/meditators-illustration.png' ) . '","mediaType":"image","mediaWidth":33,"mediaSizeSlug":"full","verticalAlignment":"center","imageFill":false,"className":"width-full-size center-block"} -->
 	<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center width-full-size center-block" style="grid-template-columns:33% auto"><figure class="wp-block-media-text__media"><img src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/meditators-illustration.png' ) . '" alt="' . esc_html__( 'Illustration with four smiling meditators', 'shambhala-twentytwentytwo' ) . '" class="wp-image-3442 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"textAlign":"left","style":{"color":{"text":"#000000"}},"fontSize":"x-large"} -->
