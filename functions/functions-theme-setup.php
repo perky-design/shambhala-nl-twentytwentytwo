@@ -257,10 +257,10 @@ function shambhala_twentytwentytwo_version() {
 /**
  * Load translations for shambhala-twentytwentytwo.
  */
-function wshambhala_twentytwentytwo_translations() {
-	load_theme_textdomain( 'shambhala-twentytwentytwo', get_template_directory() . '/languages' );
+function shambhala_twentytwentytwo_translations() {
+	load_child_theme_textdomain( 'shambhala-twentytwentytwo', get_stylesheet_directory() . '/languages' );
 }
-add_action( 'after_setup_theme', 'wshambhala_twentytwentytwo_translations' );
+add_action( 'after_setup_theme', 'shambhala_twentytwentytwo_translations' );
 
 /**
  * Allow svg uploads for shambhala-twentytwentytwo.
