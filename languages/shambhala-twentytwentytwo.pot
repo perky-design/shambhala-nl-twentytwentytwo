@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Shambhala Twenty Twenty-Two\n"
-"POT-Creation-Date: 2022-06-04 06:19+0200\n"
+"POT-Creation-Date: 2022-06-05 09:09+0200\n"
 "PO-Revision-Date: 2022-05-26 13:37+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -96,37 +96,145 @@ msgstr ""
 msgid "404 error content."
 msgstr ""
 
-#: patterns/hidden-404.php:13
+#: patterns/hidden-404.php:17
 msgid "Page not found"
 msgstr ""
 
-#: patterns/hidden-404.php:22
+#: patterns/hidden-404.php:29
 msgid "Oops, we can’t seem to find the page you’re looking for."
 msgstr ""
 
-#: patterns/hidden-404.php:26
+#: patterns/hidden-404.php:33
 msgid "Error code: 404 Page not found."
 msgstr ""
 
-#: patterns/hidden-404.php:30
+#: patterns/hidden-404.php:37
 msgid "Please use the links in the menu or the search form below."
 msgstr ""
 
-#: patterns/hidden-404.php:38
+#: patterns/hidden-404.php:45
 msgctxt "label"
 msgid "Search"
 msgstr ""
 
-#: patterns/hidden-404.php:38
+#: patterns/hidden-404.php:45 patterns/hidden-title-search.php:8
 msgid "Search"
 msgstr ""
 
-#: patterns/hidden-news-title.php:11
+#: patterns/hidden-title-news.php:11
 msgid "News title"
+msgstr ""
+
+#: patterns/hidden-title-search.php:11
+msgid "Search result title"
 msgstr ""
 
 #: patterns/page-landing-hero.php:17
 msgid "Landing page with hero image."
+msgstr ""
+
+#: patterns/page-landing-hero.php:28 patterns/page-landing-hero.php:44
+#: patterns/section-three-columns.php:12
+msgid "Shambhala: a global community"
+msgstr ""
+
+#: patterns/page-landing-hero.php:32
+msgid ""
+"Shambhala is a global community of people inspired by the principle that "
+"every human being has a fundamental nature of basic goodness."
+msgstr ""
+
+#: patterns/page-landing-hero.php:50 patterns/section-three-columns.php:18
+msgid ""
+"Shambhala is a global community of people inspired by the principle that "
+"every human being has a fundamental nature of basic goodness. This nature, "
+"our innate wisdom, can be developed so that it benefits our own lives and "
+"helps meet the many challenges facing the world."
+msgstr ""
+
+#: patterns/page-landing-hero.php:54 patterns/section-three-columns.php:22
+msgid "People in Shambhala shrine room, some smiling, some pensive."
+msgstr ""
+
+#: patterns/page-landing-hero.php:54 patterns/section-three-columns.php:22
+msgid "Community gathering"
+msgstr ""
+
+#: patterns/page-landing-hero.php:58 patterns/section-three-columns.php:26
+msgid ""
+"Shambhala welcomes people from all walks of life, faiths, and backgrounds. "
+"They come together to practice meditation, gather, and celebrate to develop "
+"a global culture that cultivates dignity and sanity in an increasingly "
+"chaotic and stressful world."
+msgstr ""
+
+#: patterns/page-landing-hero.php:64 patterns/section-three-columns.php:32
+msgid ""
+"Each individual, group, and Shambhala Center worldwide are linked together "
+"by the Shambhala teachings and lineage, making a worldwide community of "
+"shared inspiration. There are thousands of members and friends of Shambhala "
+"on all continents."
+msgstr ""
+
+#: patterns/page-landing-hero.php:68 patterns/section-three-columns.php:36
+msgid ""
+"There are online communities and more than 200 Shambhala centres and groups "
+"and individual members located in major cities, towns, and rural settings in "
+"over 50 different countries."
+msgstr ""
+
+#: patterns/page-landing-hero.php:76 patterns/section-three-columns.php:44
+msgid ""
+"Shambhala vision is rooted in the principle that every human being has a "
+"fundamental nature of basic goodness. This nature can be developed in daily "
+"life to radiate out to family, friends, community, and society."
+msgstr ""
+
+#: patterns/page-landing-hero.php:80 patterns/section-three-columns.php:48
+msgid "Dive into Shambhala Vision"
+msgstr ""
+
+#: patterns/page-landing-hero.php:91 patterns/section-three-columns.php:59
+msgid ""
+"A great deal of the chaos in the world occurs because people don’t "
+"appreciate themselves."
+msgstr ""
+
+#: patterns/page-landing-hero.php:91 patterns/section-three-columns.php:59
+msgid "Chögyam Trungpa"
+msgstr ""
+
+#: patterns/page-landing-hero.php:107 patterns/section-image-with-text-4.php:12
+msgid "Buddha statue"
+msgstr ""
+
+#: patterns/page-landing-hero.php:108 patterns/section-image-with-text-4.php:13
+msgid "Welcome"
+msgstr ""
+
+#: patterns/page-landing-hero.php:112 patterns/page-landing-hero.php:116
+#: patterns/section-image-with-text-4.php:17
+msgid "Shambhala brings together people of all ages and from all walks of life"
+msgstr ""
+
+#: patterns/page-landing-hero.php:125 patterns/section-image-with-text-4.php:30
+msgid "Learn more"
+msgstr ""
+
+#: patterns/page-landing-hero.php:142 patterns/query-small.php:25
+msgid "Latest news"
+msgstr ""
+
+#: patterns/page-landing-hero.php:148 patterns/query-small.php:31
+msgid "All news >"
+msgstr ""
+
+#: patterns/page-landing-hero.php:178
+msgid "Upcoming events"
+msgstr ""
+
+#: patterns/page-landing-hero.php:184
+msgid "All events >"
 msgstr ""
 
 #: patterns/page-landing-text.php:9
@@ -147,27 +255,6 @@ msgstr ""
 
 #: patterns/query-small.php:17
 msgid "List of posts in one column (no featured images)."
-msgstr ""
-
-#: patterns/query-small.php:25
-msgid "Latest news"
-msgstr ""
-
-#: patterns/query-small.php:31
-msgid "All news >"
-msgstr ""
-
-#: patterns/section-description-text.php:9
-msgid "Description section with text."
-msgstr ""
-
-#: patterns/section-description-text.php:19
-msgid ""
-"Shambhala is based on trust in human dignity. We offer a path of meditation "
-"practice and contemplative arts oriented towards modern life. Our "
-"communities around the world cultivate kindness, bravery, and genuine "
-"dialogue. Our vision is to inspire compassionate, sustainable, and just "
-"human societies.."
 msgstr ""
 
 #: patterns/section-image-with-text-1.php:9
@@ -246,26 +333,24 @@ msgstr ""
 msgid "Image with text 4."
 msgstr ""
 
-#: patterns/section-image-with-text-4.php:12
-msgid "Buddha statue"
-msgstr ""
-
-#: patterns/section-image-with-text-4.php:13
-msgid "Welcome"
-msgstr ""
-
-#: patterns/section-image-with-text-4.php:17
-msgid "Shambhala brings together people of all ages and from all walks of life"
-msgstr ""
-
 #: patterns/section-image-with-text-4.php:21
 msgid ""
 "Shambhala is based on trust in human dignity. We offer a path of meditation "
 "practice and contemplative arts oriented towards modern life."
 msgstr ""
 
-#: patterns/section-image-with-text-4.php:30
-msgid "Learn more"
+#: patterns/section-quote.php:9
+msgid "Quote with citation"
+msgstr ""
+
+#: patterns/section-quote.php:13
+msgid ""
+"A great deal of the chaos in the world occurs because people don't "
+"appreciate themselves."
+msgstr ""
+
+#: patterns/section-quote.php:13
+msgid "Chögyam Trungpa, Shambhala: The Sacred Path of the Warrior"
 msgstr ""
 
 #: patterns/section-team.php:9
@@ -290,70 +375,6 @@ msgstr ""
 
 #: patterns/section-three-columns.php:9
 msgid "Three columns with images and text."
-msgstr ""
-
-#: patterns/section-three-columns.php:12
-msgid "Shambhala: a global community"
-msgstr ""
-
-#: patterns/section-three-columns.php:18
-msgid ""
-"Shambhala is a global community of people inspired by the principle that "
-"every human being has a fundamental nature of basic goodness. This nature, "
-"our innate wisdom, can be developed so that it benefits our own lives and "
-"helps meet the many challenges facing the world."
-msgstr ""
-
-#: patterns/section-three-columns.php:22
-msgid "People in Shambhala shrine room, some smiling, some pensive."
-msgstr ""
-
-#: patterns/section-three-columns.php:22
-msgid "Community gathering"
-msgstr ""
-
-#: patterns/section-three-columns.php:26
-msgid ""
-"Shambhala welcomes people from all walks of life, faiths, and backgrounds. "
-"They come together to practice meditation, gather, and celebrate to develop "
-"a global culture that cultivates dignity and sanity in an increasingly "
-"chaotic and stressful world."
-msgstr ""
-
-#: patterns/section-three-columns.php:32
-msgid ""
-"Each individual, group, and Shambhala Center worldwide are linked together "
-"by the Shambhala teachings and lineage, making a worldwide community of "
-"shared inspiration. There are thousands of members and friends of Shambhala "
-"on all continents."
-msgstr ""
-
-#: patterns/section-three-columns.php:36
-msgid ""
-"There are online communities and more than 200 Shambhala centres and groups "
-"and individual members located in major cities, towns, and rural settings in "
-"over 50 different countries."
-msgstr ""
-
-#: patterns/section-three-columns.php:44
-msgid ""
-"Shambhala vision is rooted in the principle that every human being has a "
-"fundamental nature of basic goodness. This nature can be developed in daily "
-"life to radiate out to family, friends, community, and society."
-msgstr ""
-
-#: patterns/section-three-columns.php:48
-msgid "Dive into Shambhala Vision"
-msgstr ""
-
-#: patterns/section-three-columns.php:59
-msgid ""
-"A great deal of the chaos in the world occurs because people don’t "
-"appreciate themselves."
-msgstr ""
-
-#: patterns/section-three-columns.php:59
-msgid "Chögyam Trungpa"
 msgstr ""
 
 #: patterns/section-two-columns.php:9

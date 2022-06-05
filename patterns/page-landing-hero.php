@@ -51,7 +51,7 @@ return array(
 	<!-- /wp:paragraph -->
 
 	<!-- wp:image {"id":2703,"sizeSlug":"full","linkDestination":"none"} -->
-	<figure class="wp-block-image size-full"><img src="' . esc_url( get_theme_file_uri( '/assets/images/community-group.jpg' ) ) . '" alt="' . esc_html__( 'People in Shambhala shrine room, some smiling, some pensive.', 'shambhala-twentytwentytwo' ) . '" class="wp-image-2703"/><figcaption>' . esc_html__( 'Community gathering.', 'shambhala-twentytwentytwo' ) . '</figcaption></figure>
+	<figure class="wp-block-image size-full"><img src="' . esc_url( get_theme_file_uri( '/assets/images/community-group.jpg' ) ) . '" alt="' . esc_html__( 'People in Shambhala shrine room, some smiling, some pensive.', 'shambhala-twentytwentytwo' ) . '" class="wp-image-2703"/><figcaption>' . esc_html__( 'Community gathering', 'shambhala-twentytwentytwo' ) . '</figcaption></figure>
 	<!-- /wp:image -->
 
 	<!-- wp:paragraph -->
