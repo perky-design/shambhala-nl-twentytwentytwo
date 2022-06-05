@@ -27,8 +27,8 @@ return array(
 <p>' . esc_html__( 'Director', 'shambhala-twentytwentytwo' ) . '<br><a href="mailto:example@shambhala.org">example@shambhala.org</a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":"25px"} -->
-<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"32px"} -->
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
 <!-- /wp:column -->
 
@@ -45,8 +45,8 @@ return array(
 <p>' . esc_html__( 'Director', 'shambhala-twentytwentytwo' ) . '<br><a href="mailto:example@shambhala.org">example@shambhala.org</a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":"25px"} -->
-<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"32px"} -->
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
 <!-- /wp:column -->
 
@@ -63,8 +63,8 @@ return array(
 <p>' . esc_html__( 'Director', 'shambhala-twentytwentytwo' ) . '<br><a href="mailto:example@shambhala.org">example@shambhala.org</a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":"25px"} -->
-<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"32px"} -->
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -83,8 +83,8 @@ return array(
 <p>' . esc_html__( 'Director', 'shambhala-twentytwentytwo' ) . '<br><a href="mailto:example@shambhala.org">example@shambhala.org</a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":"25px"} -->
-<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"32px"} -->
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
 <!-- /wp:column -->
 
@@ -101,8 +101,8 @@ return array(
 <p>' . esc_html__( 'Director', 'shambhala-twentytwentytwo' ) . '<br><a href="mailto:example@shambhala.org">example@shambhala.org</a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":"25px"} -->
-<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"32px"} -->
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
 <!-- /wp:column -->
 
@@ -119,8 +119,8 @@ return array(
 <p>' . esc_html__( 'Director', 'shambhala-twentytwentytwo' ) . '<br><a href="mailto:example@shambhala.org">example@shambhala.org</a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":"25px"} -->
-<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"32px"} -->
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -139,8 +139,8 @@ return array(
 <p>' . esc_html__( 'Director', 'shambhala-twentytwentytwo' ) . '<br><a href="mailto:example@shambhala.org">example@shambhala.org</a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":"25px"} -->
-<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"32px"} -->
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
 <!-- /wp:column -->
 
@@ -157,8 +157,8 @@ return array(
 <p>' . esc_html__( 'Director', 'shambhala-twentytwentytwo' ) . '<br><a href="mailto:example@shambhala.org">example@shambhala.org</a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":"25px"} -->
-<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"32px"} -->
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
 <!-- /wp:column -->
 
@@ -175,8 +175,8 @@ return array(
 <p>' . esc_html__( 'Director', 'shambhala-twentytwentytwo' ) . '<br><a href="mailto:example@shambhala.org">example@shambhala.org</a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":"25px"} -->
-<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"32px"} -->
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -195,8 +195,8 @@ return array(
 <p>' . esc_html__( 'Secretary', 'shambhala-twentytwentytwo' ) . '<br><a href="mailto:example@shambhala.org">example@shambhala.org</a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":"25px"} -->
-<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"32px"} -->
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
 <!-- /wp:column -->
 
@@ -211,6 +211,6 @@ return array(
 <!-- /wp:group -->
 
 <!-- wp:spacer -->
-<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->',
 );

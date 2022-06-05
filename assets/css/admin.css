@@ -332,6 +332,10 @@ strong {
 	font-weight: 900;
 }
 
+.wp-block-quote cite.wp-block-quote__citation {
+	text-transform: uppercase;
+}
+
 .wp-block-button__link {
 	text-transform: uppercase;
 	font-weight: 500;

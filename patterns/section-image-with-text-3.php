@@ -18,8 +18,8 @@ return array(
 	<p>' . esc_html__( 'Connect with teachings to deepen your spiritual journey—anytime, anywhere.', 'shambhala-twentytwentytwo' ) . '</p>
 	<!-- /wp:paragraph -->
 
-	<!-- wp:spacer {"height":"25px"} -->
-	<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- wp:spacer {"height":"32px"} -->
+	<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 
 	<!-- wp:buttons -->

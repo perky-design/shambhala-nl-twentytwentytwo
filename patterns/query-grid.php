@@ -18,8 +18,8 @@ return array(
 
 				<!-- wp:post-date {"fontSize":"small"} /-->
 
-				<!-- wp:spacer {"height":20} -->
-				<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- wp:spacer {"height":32} -->
+				<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
 				<!-- wp:post-excerpt {"moreText":"Lees verder"} /-->
