@@ -152,7 +152,6 @@ function shambhala_twentytwentytwo_unregister_block_patterns() {
 		'header-centered-logo',
 		'header-centered-logo-black-background',
 		'header-centered-title-navigation-social',
-		'header-title-and-button',
 		'hidden-404',
 		'hidden-bird',
 		'hidden-heading-and-bird',

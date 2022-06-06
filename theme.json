@@ -1,6 +1,9 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
+	"patterns": [
+		"footer-default", "header-default", "hero-cover", "hidden-404", "hidden-title-news", "hidden-title-search", "page-landing-hero", "page-landing-text", "page-shambhala-centre", "query-default", "query-grid", "query-small", "section-image-with-text-1", "section-image-with-text-2", "section-image-with-text-3", "section-image-with-text-4", "section-quote", "section-team", "section-three-columns", "section-two-columns"
+	],
 	"customTemplates": [
 		{
 			"name": "no-title-template",

@@ -8,8 +8,8 @@
 return array(
 	'title'      => __( 'Landing page for Shambhala centre page.', 'shambhala-twentytwentytwo' ),
 	'categories' => array( 'sh-page' ),
-	'content'    => '<!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( '/assets/images/zalmhaven.jpg' ) ) . '","id":3270,"dimRatio":20,"overlayColor":"secondary","focalPoint":{"x":"0.50","y":"0.24"},"minHeight":800,"minHeightUnit":"px","isDark":false,"align":"full","className":"cover-image-with-text-has-background"} -->
-		<div class="wp-block-cover alignfull is-light cover-image-with-text-has-background" style="min-height:800px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-20 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-3270" alt="" src="' . esc_url( get_theme_file_uri( '/assets/images/zalmhaven.jpg' ) ) . '" style="object-position:50% 24%" data-object-fit="cover" data-object-position="50% 24%"/><div class="wp-block-cover__inner-container"><!-- wp:columns {"className":"width-full-size "} -->
+	'content'    => '<!-- wp:cover {"url":"https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/zalmhaven.jpg","id":3270,"dimRatio":20,"overlayColor":"secondary","focalPoint":{"x":"0.50","y":"0.24"},"minHeight":800,"minHeightUnit":"px","isDark":false,"align":"full","className":"cover-image-with-text-has-background"} -->
+		<div class="wp-block-cover alignfull is-light cover-image-with-text-has-background" style="min-height:800px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-20 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-3270" alt="" src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/zalmhaven.jpg" style="object-position:50% 24%" data-object-fit="cover" data-object-position="50% 24%"/><div class="wp-block-cover__inner-container"><!-- wp:columns {"className":"width-full-size "} -->
 		<div class="wp-block-columns width-full-size"><!-- wp:column -->
 		<div class="wp-block-column"><!-- wp:group {"layout":{"inherit":false}} -->
 		<div class="wp-block-group"><!-- wp:spacer {"height":"600px"} -->
@@ -69,7 +69,7 @@ return array(
 		<!-- wp:columns {"align":"wide"} -->
 		<div class="wp-block-columns alignwide"><!-- wp:column -->
 		<div class="wp-block-column"><!-- wp:image {"id":3242,"sizeSlug":"large","linkDestination":"none"} -->
-		<figure class="wp-block-image size-large"><img src="' . esc_url( get_theme_file_uri( '/assets/images/shambhala-rotterdam-schrijnruimte.jpg' ) ) . '" alt="Meditatieruimte" class="wp-image-3242"/><figcaption>Meditatieruimte Shambhala Rotterdam</figcaption></figure>
+		<figure class="wp-block-image size-large"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/shambhala-rotterdam-schrijnruimte.jpg" alt="Meditatieruimte" class="wp-image-3242"/><figcaption>Meditatieruimte Shambhala Rotterdam</figcaption></figure>
 		<!-- /wp:image --></div>
 		<!-- /wp:column -->
 
@@ -105,8 +105,8 @@ return array(
 		<!-- /wp:spacer -->
 
 		<!-- wp:group {"align":"full","backgroundColor":"light-grey"} -->
-		<div class="wp-block-group alignfull has-light-grey-background-color has-background"><!-- wp:media-text {"mediaId":3442,"mediaLink":"' . esc_url( get_theme_file_uri( '/assets/images/meditators-illustration.png' ) ) . '","mediaType":"image","mediaWidth":33,"mediaSizeSlug":"full","verticalAlignment":"center","imageFill":false,"className":"width-full-size center-block"} -->
-		<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center width-full-size center-block" style="grid-template-columns:33% auto"><figure class="wp-block-media-text__media"><img src="' . esc_url( get_theme_file_uri( '/assets/images/meditators-illustration.png' ) ) . '" alt="" class="wp-image-3442 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"textAlign":"left","style":{"color":{"text":"#000000"}},"fontSize":"x-large"} -->
+		<div class="wp-block-group alignfull has-light-grey-background-color has-background"><!-- wp:media-text {"mediaId":3442,"mediaLink":"https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/meditators-illustration.png","mediaType":"image","mediaWidth":33,"mediaSizeSlug":"full","verticalAlignment":"center","imageFill":false,"className":"width-full-size center-block"} -->
+		<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center width-full-size center-block" style="grid-template-columns:33% auto"><figure class="wp-block-media-text__media"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/meditators-illustration.png" alt="" class="wp-image-3442 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"textAlign":"left","style":{"color":{"text":"#000000"}},"fontSize":"x-large"} -->
 		<h2 class="has-text-align-left has-text-color has-x-large-font-size" style="color:#000000">Het programma in de agenda</h2>
 		<!-- /wp:heading -->
 

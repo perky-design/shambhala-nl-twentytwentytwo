@@ -16,7 +16,7 @@ return array(
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":3093,"sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-full is-style-default"><img src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/section-team-388397-500x500.jpg' ) . '" alt="Gary Johnson" class="wp-image-3093"/></figure>
+<figure class="wp-block-image size-full is-style-default"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/section-team-388397-500x500.jpg" alt="Gary Johnson" class="wp-image-3093"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -34,7 +34,7 @@ return array(
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":3096,"sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-full is-style-default"><img src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/section-team-211565-500x500.jpg' ) . '" alt="Lauren Morgan" class="wp-image-3096"/></figure>
+<figure class="wp-block-image size-full is-style-default"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/section-team-211565-500x500.jpg" alt="Lauren Morgan" class="wp-image-3096"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -52,7 +52,7 @@ return array(
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":3099,"sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-full is-style-default"><img src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/section-team-172564-500x500.jpg' ) . '" alt="Renee Olson" class="wp-image-3099"/></figure>
+<figure class="wp-block-image size-full is-style-default"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/section-team-172564-500x500.jpg" alt="Renee Olson" class="wp-image-3099"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -72,7 +72,7 @@ return array(
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":3100,"sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-full is-style-default"><img src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/section-team-326442-500x500.jpg' ) . '" alt="Linda Kelley" class="wp-image-3100"/></figure>
+<figure class="wp-block-image size-full is-style-default"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/section-team-326442-500x500.jpg" alt="Linda Kelley" class="wp-image-3100"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -90,7 +90,7 @@ return array(
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":3101,"sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-full is-style-default"><img src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/section-team-3233182-500x500.png' ) . '" alt="John Mullins" class="wp-image-3101"/></figure>
+<figure class="wp-block-image size-full is-style-default"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/section-team-3233182-500x500.png" alt="John Mullins" class="wp-image-3101"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -108,7 +108,7 @@ return array(
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":3103,"sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-full is-style-default"><img src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/section-team-934-500x500.jpg' ) . '" alt="Kristin Conley" class="wp-image-3103"/></figure>
+<figure class="wp-block-image size-full is-style-default"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/section-team-934-500x500.jpg" alt="Kristin Conley" class="wp-image-3103"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -128,7 +128,7 @@ return array(
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":3104,"sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-full is-style-default"><img src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/section-team-3933751-500x500.png' ) . '" alt="Jessica Hale" class="wp-image-3104"/></figure>
+<figure class="wp-block-image size-full is-style-default"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/section-team-3933751-500x500.png" alt="Jessica Hale" class="wp-image-3104"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -146,7 +146,7 @@ return array(
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":3105,"sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-full is-style-default"><img src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/section-team-2330284-500x500.jpg' ) . '" alt="Tiffany Moore" class="wp-image-3105"/></figure>
+<figure class="wp-block-image size-full is-style-default"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/section-team-2330284-500x500.jpg" alt="Tiffany Moore" class="wp-image-3105"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -164,7 +164,7 @@ return array(
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":3106,"sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-full is-style-default"><img src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/section-team-950-500x500.jpg' ) . '" alt="Larry Glass" class="wp-image-3106"/></figure>
+<figure class="wp-block-image size-full is-style-default"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/section-team-950-500x500.jpg" alt="Larry Glass" class="wp-image-3106"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -184,7 +184,7 @@ return array(
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":3107,"sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-full is-style-default"><img src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/section-team-986-500x500.jpg' ) . '" alt="Ian Araújo" class="wp-image-3107"/></figure>
+<figure class="wp-block-image size-full is-style-default"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/section-team-986-500x500.jpg" alt="Ian Araújo" class="wp-image-3107"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"fontSize":"large"} -->
