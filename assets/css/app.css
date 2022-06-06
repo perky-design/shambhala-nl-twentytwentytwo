@@ -7,6 +7,9 @@ h4,
 h5,
 h6 {
 	color: var(--wp--preset--color--black);
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
 }
 
 strong {
@@ -119,6 +122,7 @@ header .wp-block-navigation .wp-block-navigation-item__content {
 /* Page title & the yellow line under the page title */
 .wp-block-post-title {
 	font-weight: 500;
+	padding-bottom: calc(var(--wp--style--block-gap) * 2);
 }
 
 h2.wp-block-post-title {
@@ -131,14 +135,14 @@ h2.wp-block-post-title {
 	position: relative;
 	text-align: left;
 	display: inline-block;
-	width: 42vw;
-	border-bottom-width: 2px;
+	width: 42vw !important;
+	border-bottom-width: 2px !important;
 }
 
 @media (min-width: 600px) {
 
 	.wp-block-separator-after-title {
-		width: 20vw;
+		width: 20vw !important;
 	}
 }
 

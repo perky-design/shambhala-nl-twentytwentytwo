@@ -17,7 +17,7 @@ return array(
 <h1 class="alignwide wp-block-post-title">' . esc_html__( 'Page not found', 'shambhala-twentytwentytwo' ) . '</h1>
 
 <!-- wp:separator {"align":"wide","className":"is-style-wide"} -->
-<hr class="wp-block-separator wp-block-separator-after-title alignwide is-style-wide"/>
+<hr class="wp-block-separator wp-block-separator-after-title"/>
 <!-- /wp:separator --></div>
 <!-- /wp:column --></div>
 
