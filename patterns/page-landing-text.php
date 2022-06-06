@@ -33,7 +33,7 @@ return array(
 
 		<!-- wp:column -->
 		<div class="wp-block-column"><!-- wp:image {"align":"center","id":3410,"sizeSlug":"large","linkDestination":"none"} -->
-		<figure class="wp-block-image aligncenter size-large"><img src="' . esc_url( get_theme_file_uri( '/assets/images/meditators-left-1024x1024.jpeg' ) ) . '" alt="" class="wp-image-3410"/><figcaption>Meditatie in een Shambhala centrum</figcaption></figure>
+		<figure class="wp-block-image aligncenter size-large"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/meditators-left-1024x1024.jpeg" alt="" class="wp-image-3410"/><figcaption>Meditatie in een Shambhala centrum</figcaption></figure>
 		<!-- /wp:image --></div>
 		<!-- /wp:column --></div>
 		<!-- /wp:columns -->
@@ -68,27 +68,27 @@ return array(
 		<!-- wp:column -->
 		<div class="wp-block-column"><!-- wp:gallery {"columns":2,"linkTo":"none"} -->
 		<figure class="wp-block-gallery has-nested-images columns-2 is-cropped"><!-- wp:image {"id":3403,"sizeSlug":"large","linkDestination":"custom"} -->
-		<figure class="wp-block-image size-large"><a href="https://www.bol.com/nl/nl/f/shambhala/30011688/" target="_blank" rel="noreferrer noopener"><img src="' . esc_url( get_theme_file_uri( '/assets/images/de-weg-van-de-krijger-717x1024.jpg' ) ) . '" alt="Bekijk boek De weg van de krijger van Chögyam Trungpa" class="wp-image-3403"/></a></figure>
+		<figure class="wp-block-image size-large"><a href="https://www.bol.com/nl/nl/f/shambhala/30011688/" target="_blank" rel="noreferrer noopener"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/de-weg-van-de-krijger-717x1024.jpg" alt="Bekijk boek De weg van de krijger van Chögyam Trungpa" class="wp-image-3403"/></a></figure>
 		<!-- /wp:image -->
 
 		<!-- wp:image {"id":3429,"sizeSlug":"large","linkDestination":"custom"} -->
-		<figure class="wp-block-image size-large"><a href="https://www.bol.com/nl/nl/p/de-mythe-van-vrijheid-en-het-pad-van-meditatie/666881796/" target="_blank" rel="noreferrer noopener"><img src="' . esc_url( get_theme_file_uri( '/assets/images/mythe-van-vrijheid-713x1024.jpg' ) ) . '" alt="Bekijk boek De mythe van het vrijheid van Chögyam Trungpa" class="wp-image-3429"/></a></figure>
+		<figure class="wp-block-image size-large"><a href="https://www.bol.com/nl/nl/p/de-mythe-van-vrijheid-en-het-pad-van-meditatie/666881796/" target="_blank" rel="noreferrer noopener"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/mythe-van-vrijheid-713x1024.jpg" alt="Bekijk boek De mythe van het vrijheid van Chögyam Trungpa" class="wp-image-3429"/></a></figure>
 		<!-- /wp:image -->
 
 		<!-- wp:image {"id":3394,"sizeSlug":"full","linkDestination":"custom"} -->
-		<figure class="wp-block-image size-full"><a href="https://www.uitgeverijtenhave.nl/boek/running-buddha/" target="_blank" rel="noreferrer noopener"><img src="' . esc_url( get_theme_file_uri( '/assets/images/book-running-buddha.jpg' ) ) . '" alt="Bekijk boek Running Buddha van Sakyong Mipham" class="wp-image-3394"/></a></figure>
+		<figure class="wp-block-image size-full"><a href="https://www.uitgeverijtenhave.nl/boek/running-buddha/" target="_blank" rel="noreferrer noopener"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/book-running-buddha.jpg" alt="Bekijk boek Running Buddha van Sakyong Mipham" class="wp-image-3394"/></a></figure>
 		<!-- /wp:image -->
 
 		<!-- wp:image {"id":3397,"sizeSlug":"full","linkDestination":"custom"} -->
-		<figure class="wp-block-image size-full"><a href="https://www.uitgeverijtenhave.nl/boek/meester-over-je-eigen-leven/" target="_blank" rel="noreferrer noopener"><img src="' . esc_url( get_theme_file_uri( '/assets/images/meester-over-je-eigen-leven.png' ) ) . '" alt="Bekijk boek Meester over je eigen leven van Sakyong Mipham" class="wp-image-3397"/></a></figure>
+		<figure class="wp-block-image size-full"><a href="https://www.uitgeverijtenhave.nl/boek/meester-over-je-eigen-leven/" target="_blank" rel="noreferrer noopener"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/meester-over-je-eigen-leven.png" alt="Bekijk boek Meester over je eigen leven van Sakyong Mipham" class="wp-image-3397"/></a></figure>
 		<!-- /wp:image -->
 
 		<!-- wp:image {"id":3398,"sizeSlug":"full","linkDestination":"custom"} -->
-		<figure class="wp-block-image size-full"><a href="https://www.uitgeverijtenhave.nl/boek/mediteren/" target="_blank" rel="noreferrer noopener"><img src="' . esc_url( get_theme_file_uri( '/assets/images/mediteren.png' ) ) . '" alt="Bekijk boek Mediteren van Pema Chödrön" class="wp-image-3398"/></a></figure>
+		<figure class="wp-block-image size-full"><a href="https://www.uitgeverijtenhave.nl/boek/mediteren/" target="_blank" rel="noreferrer noopener"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/mediteren.png" alt="Bekijk boek Mediteren van Pema Chödrön" class="wp-image-3398"/></a></figure>
 		<!-- /wp:image -->
 
 		<!-- wp:image {"id":3399,"sizeSlug":"full","linkDestination":"custom"} -->
-		<figure class="wp-block-image size-full"><a href="https://www.uitgeverijtenhave.nl/boek/omarm-de-wereld/" target="_blank" rel="noreferrer noopener"><img src="' . esc_url( get_theme_file_uri( '/assets/images/omarm-de-wereld.png' ) ) . '" alt="Bekijk boek Omarm de wereld van Pema Chödrön" class="wp-image-3399"/></a></figure>
+		<figure class="wp-block-image size-full"><a href="https://www.uitgeverijtenhave.nl/boek/omarm-de-wereld/" target="_blank" rel="noreferrer noopener"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/omarm-de-wereld.png" alt="Bekijk boek Omarm de wereld van Pema Chödrön" class="wp-image-3399"/></a></figure>
 		<!-- /wp:image --></figure>
 		<!-- /wp:gallery --></div>
 		<!-- /wp:column --></div>

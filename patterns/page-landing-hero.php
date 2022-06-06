@@ -16,8 +16,8 @@ if ( $news_page_id ) {
 return array(
 	'title'      => __( 'Landing page with hero image.', 'shambhala-twentytwentytwo' ),
 	'categories' => array( 'sh-page' ),
-	'content'    => '<!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( '/assets/images/meditator-under-tree.jpg' ) ) . '","id":2145,"dimRatio":15,"overlayColor":"secondary","focalPoint":{"x":"0.51","y":"0.27"},"minHeight":800,"minHeightUnit":"px","isDark":false,"align":"full","className":"cover-image-with-text-has-background"} -->
-	<div class="wp-block-cover alignfull is-light cover-image-with-text-has-background" style="min-height:800px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-20 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2145" alt="Meditator under a tree" src="' . esc_url( get_theme_file_uri( '/assets/images/meditator-under-tree.jpg' ) ) . '" style="object-position:51% 27%" data-object-fit="cover" data-object-position="51% 27%"/><div class="wp-block-cover__inner-container"><!-- wp:columns {"className":"width-full-size "} -->
+	'content'    => '<!-- wp:cover {"url":"https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/meditator-under-tree.jpg","id":2145,"dimRatio":15,"overlayColor":"secondary","focalPoint":{"x":"0.51","y":"0.27"},"minHeight":800,"minHeightUnit":"px","isDark":false,"align":"full","className":"cover-image-with-text-has-background"} -->
+	<div class="wp-block-cover alignfull is-light cover-image-with-text-has-background" style="min-height:800px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-20 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2145" alt="Meditator under a tree" src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/meditator-under-tree.jpg" style="object-position:51% 27%" data-object-fit="cover" data-object-position="51% 27%"/><div class="wp-block-cover__inner-container"><!-- wp:columns {"className":"width-full-size "} -->
 	<div class="wp-block-columns width-full-size"><!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:group {"layout":{"inherit":false}} -->
 	<div class="wp-block-group"><!-- wp:spacer {"height":"400px"} -->
@@ -86,8 +86,8 @@ return array(
 	<!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( '/assets/images/balance-blur-boulder-close-up-355863.jpg' ) ) . '","id":3496,"dimRatio":70,"overlayColor":"dark-blue","focalPoint":{"x":"0.35","y":"0.89"},"minHeight":791,"minHeightUnit":"px"} -->
-<div class="wp-block-cover" style="min-height:791px"><span aria-hidden="true" class="wp-block-cover__background has-dark-blue-background-color has-background-dim-70 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-3496" alt="" src="' . esc_url( get_theme_file_uri( '/assets/images/balance-blur-boulder-close-up-355863.jpg' ) ) . '" style="object-position:35% 89%" data-object-fit="cover" data-object-position="35% 89%"/><div class="wp-block-cover__inner-container"><!-- wp:quote {"fontSize":"x-large"} -->
+<div class="wp-block-column"><!-- wp:cover {"url":"https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/balance-blur-boulder-close-up.jpg","id":3496,"dimRatio":70,"overlayColor":"dark-blue","focalPoint":{"x":"0.35","y":"0.89"},"minHeight":791,"minHeightUnit":"px"} -->
+<div class="wp-block-cover" style="min-height:791px"><span aria-hidden="true" class="wp-block-cover__background has-dark-blue-background-color has-background-dim-70 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-3496" alt="" src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/balance-blur-boulder-close-up.jpg" style="object-position:35% 89%" data-object-fit="cover" data-object-position="35% 89%"/><div class="wp-block-cover__inner-container"><!-- wp:quote {"fontSize":"x-large"} -->
 <blockquote class="wp-block-quote has-x-large-font-size"><p>' . esc_html__( 'A great deal of the chaos in the world occurs because people don’t appreciate themselves.', 'shambhala-twentytwentytwo' ) . '</p><p></p><cite>' . esc_html__( 'Chögyam Trungpa', 'shambhala-twentytwentytwo' ) . '</cite></blockquote>
 <!-- /wp:quote --></div></div>
 <!-- /wp:cover --></div>
@@ -103,8 +103,8 @@ return array(
 	<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 
-	<!-- wp:media-text {"mediaId":2901,"mediaLink":"' . esc_url( get_theme_file_uri( '/assets/images/buddha-statue-circle.jpg' ) ) . '","mediaType":"image","mediaWidth":33,"verticalAlignment":"center","imageFill":false,"className":"rounded-image is-style-rounded-image width-full-size center-block"} -->
-	<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center rounded-image is-style-rounded-image width-full-size center-block" style="grid-template-columns:33% auto"><figure class="wp-block-media-text__media"><img src="' . esc_url( get_theme_file_uri( '/assets/images/buddha-statue-circle.jpg' ) ) . '" alt="' . esc_html__( 'Buddha statue', 'shambhala-twentytwentytwo' ) . '" class="wp-image-2901 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"className":"is-style-heading-capitalized"} -->
+	<!-- wp:media-text {"mediaId":2901,"mediaLink":"https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/buddha-statue-circle.jpg","mediaType":"image","mediaWidth":33,"verticalAlignment":"center","imageFill":false,"className":"rounded-image is-style-rounded-image width-full-size center-block"} -->
+	<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center rounded-image is-style-rounded-image width-full-size center-block" style="grid-template-columns:33% auto"><figure class="wp-block-media-text__media"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/buddha-statue-circle.jpg" alt="' . esc_html__( 'Buddha statue', 'shambhala-twentytwentytwo' ) . '" class="wp-image-2901 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"className":"is-style-heading-capitalized"} -->
 	<h2 class="is-style-heading-capitalized">' . esc_html__( 'Welcome', 'shambhala-twentytwentytwo' ) . '</h2>
 	<!-- /wp:heading -->
 

@@ -19,7 +19,7 @@ return array(
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":2703,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/community-group.jpg' ) . '" alt="' . esc_html__( 'People in Shambhala shrine room, some smiling, some pensive.', 'shambhala-twentytwentytwo' ) . '" class="wp-image-2703"/><figcaption>' . esc_html__( 'Community gathering', 'shambhala-twentytwentytwo' ) . '</figcaption></figure>
+<figure class="wp-block-image size-full"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/community-group.jpg" alt="' . esc_html__( 'People in Shambhala shrine room, some smiling, some pensive.', 'shambhala-twentytwentytwo' ) . '" class="wp-image-2703"/><figcaption>' . esc_html__( 'Community gathering', 'shambhala-twentytwentytwo' ) . '</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -54,8 +54,8 @@ return array(
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"' . esc_url( get_stylesheet_directory_uri() . '/assets/images/miksang-1.jpg' ) . '","id":2709,"dimRatio":40,"focalPoint":{"x":"0.35","y":"0.89"},"minHeight":791,"minHeightUnit":"px"} -->
-<div class="wp-block-cover" style="min-height:791px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-40 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2709" alt="" src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/miksang-1.jpg' ) . '" style="object-position:35% 89%" data-object-fit="cover" data-object-position="35% 89%"/><div class="wp-block-cover__inner-container"><!-- wp:quote -->
+<div class="wp-block-column"><!-- wp:cover {"url":"https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/miksang-1.jpg","id":2709,"dimRatio":40,"focalPoint":{"x":"0.35","y":"0.89"},"minHeight":791,"minHeightUnit":"px"} -->
+<div class="wp-block-cover" style="min-height:791px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-40 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2709" alt="" src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/miksang-1.jpg" style="object-position:35% 89%" data-object-fit="cover" data-object-position="35% 89%"/><div class="wp-block-cover__inner-container"><!-- wp:quote -->
 <blockquote class="wp-block-quote"><p>' . esc_html__( 'A great deal of the chaos in the world occurs because people don’t appreciate themselves.', 'shambhala-twentytwentytwo' ) . '</p><p></p><cite>' . esc_html__( 'Chögyam Trungpa', 'shambhala-twentytwentytwo' ) . '</cite></blockquote>
 <!-- /wp:quote --></div></div>
 <!-- /wp:cover --></div>

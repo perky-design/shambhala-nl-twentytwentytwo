@@ -9,7 +9,7 @@ return array(
 	'title'      => __( 'Image with text 2.', 'shambhala-twentytwentytwo' ),
 	'categories' => array( 'sh-section' ),
 	'content'    => '<!-- wp:media-text {"mediaPosition":"right","mediaLink":"#","mediaType":"image","verticalAlignment":"center","imageFill":false,"backgroundColor":"secondary","textColor":"foreground","className":"is-style-default"} -->
-	<div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile is-vertically-aligned-center is-style-default has-foreground-color has-secondary-background-color has-text-color has-background"><figure class="wp-block-media-text__media"><img src="' . esc_url( get_stylesheet_directory_uri() . '/assets/images/ikebana-gong.jpg' ) . '" alt="' . esc_html__( 'A meditation gong and an ikebana', 'shambhala-twentytwentytwo' ) . '"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"textColor":"foreground","fontSize":"x-large"} -->
+	<div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile is-vertically-aligned-center is-style-default has-foreground-color has-secondary-background-color has-text-color has-background"><figure class="wp-block-media-text__media"><img src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/ikebana-gong.jpg" alt="' . esc_html__( 'A meditation gong and an ikebana', 'shambhala-twentytwentytwo' ) . '"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"textColor":"foreground","fontSize":"x-large"} -->
 	<h2 class="has-foreground-color has-text-color has-x-large-font-size">' . esc_html__( 'Shambhala Kado', 'shambhala-twentytwentytwo' ) . '</h2>
 	<!-- /wp:heading -->
 
