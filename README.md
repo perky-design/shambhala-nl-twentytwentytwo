@@ -59,6 +59,8 @@ To fix the JS, use the command: ```npm run lint-fix:js```
 
 ## Changelog
 
+0.1.10 More style fixes
+
 0.1.9 Minor style fixes
 
 0.1.8 Minor style fixes
