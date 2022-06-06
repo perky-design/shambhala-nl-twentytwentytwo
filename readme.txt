@@ -57,6 +57,7 @@ To fix the JS, use the command: ```npm run lint-fix:js```
 
 == Changelog ==
 
+0.1.7 Move images from patterns in different repo
 0.1.6 Updated patterns and style consistency improvements
 0.1.5 Updated and added patterns
 0.1.4 Add hero cover variant
