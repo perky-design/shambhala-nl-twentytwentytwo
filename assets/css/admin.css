@@ -326,10 +326,17 @@ h4,
 h5,
 h6 {
 	color: var(--wp--preset--color--black);
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
 }
 
 strong {
-	font-weight: 900;
+	font-weight: 700;
+}
+
+.wp-block-column p {
+	margin-top: 0;
 }
 
 .wp-block-quote cite.wp-block-quote__citation {
