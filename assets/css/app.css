@@ -16,6 +16,10 @@ strong {
 	font-weight: 700;
 }
 
+.wp-block-column p {
+	margin-top: 0;
+}
+
 .wp-block-quote cite {
 	text-transform: uppercase;
 }
@@ -66,6 +70,7 @@ header .wp-block-navigation .wp-block-navigation-item__content {
 		margin-block-start: var(--wp--style--block-gap);
 	}
 
+	.wp-block-site-logo img,
 	.site-logo img {
 		max-width: 216px;
 	}
@@ -74,6 +79,7 @@ header .wp-block-navigation .wp-block-navigation-item__content {
 
 @media (min-width: 600px) {
 
+	.wp-block-site-logo img,
 	.site-logo img {
 		max-width: 312px;
 	}
