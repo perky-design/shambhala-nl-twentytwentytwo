@@ -18,3 +18,4 @@ if ( ! defined( 'SHNL_TWENTYTWENTYTWO_URL' ) ) {
 // The files.
 require_once SHNL_TWENTYTWENTYTWO_ROOT . '/functions/functions-theme-setup.php';
 require_once SHNL_TWENTYTWENTYTWO_ROOT . '/functions/functions-blocks.php';
+require_once SHNL_TWENTYTWENTYTWO_ROOT . '/functions/functions-events.php';
