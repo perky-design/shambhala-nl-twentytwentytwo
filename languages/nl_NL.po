@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Shambhala Twenty Twenty-Two\n"
-"POT-Creation-Date: 2022-06-05 09:09+0200\n"
-"PO-Revision-Date: 2022-06-05 09:10+0200\n"
+"POT-Creation-Date: 2022-06-12 07:55+0200\n"
+"PO-Revision-Date: 2022-06-12 07:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -52,6 +52,10 @@ msgstr "Footers"
 msgid "Query"
 msgstr "Zoekopdracht"
 
+#: functions/functions-events.php:58
+msgid "Register"
+msgstr "Registreren"
+
 #: functions/functions-theme-setup.php:163
 msgid "Rounded image"
 msgstr "Rond beeld"
@@ -80,21 +84,6 @@ msgstr "Hero cover afbeelding met titeltekst"
 msgctxt "shambhala-twentytwentytwo"
 msgid "Hero image with text that has background color"
 msgstr "Hero image met tekst met achtergrondkleur"
-
-#: patterns/hero-cover.php:24
-msgid "About Shambhala"
-msgstr "Over Shambhala"
-
-#: patterns/hero-cover.php:28
-msgid ""
-"Through awakening our inherent goodness and potential as human beings – as "
-"individuals and as social networks and communities – we can help to foster "
-"an awake and compassionate global human society."
-msgstr ""
-"Door onze inherente goedheid en ons potentieel als mens te doen ontwaken - "
-"als individu en als sociaal netwerk en gemeenschap - kunnen wij een bijdrage "
-"leveren aan de totstandkoming van een wakkere en compassievolle wereldwijde "
-"menselijke samenleving."
 
 #: patterns/hidden-404.php:9
 msgid "404 error content."
@@ -137,19 +126,9 @@ msgstr "Titel zoekresultaat"
 msgid "Landing page with hero image."
 msgstr "Landingspagina met grote afbeelding."
 
-#: patterns/page-landing-hero.php:28 patterns/page-landing-hero.php:44
-#: patterns/section-three-columns.php:12
+#: patterns/page-landing-hero.php:44 patterns/section-three-columns.php:12
 msgid "Shambhala: a global community"
 msgstr "Shambhala: een wereldwijde gemeenschap"
-
-#: patterns/page-landing-hero.php:32
-msgid ""
-"Shambhala is a global community of people inspired by the principle that "
-"every human being has a fundamental nature of basic goodness."
-msgstr ""
-"Shambhala is een wereldwijde gemeenschap van mensen die zich laten "
-"inspireren door het principe dat ieder mens een natuur van fundamentele "
-"goedheid heeft."
 
 #: patterns/page-landing-hero.php:50 patterns/section-three-columns.php:18
 msgid ""
@@ -436,18 +415,6 @@ msgstr "Drie kolommen met afbeeldingen en tekst."
 msgid "Two columns with text."
 msgstr "Twee kolommen met tekst."
 
-#: patterns/section-welcome-text.php:9
-msgid "Welcome section with text."
-msgstr "Welkom sectie met tekst."
-
-#: patterns/section-welcome-text.php:13
-msgid "New York"
-msgstr "New York"
-
-#: patterns/section-welcome-text.php:17
-msgid "Creating Enlighted Society"
-msgstr "Het creëren van een verlichte samenleving"
-
 #. Description of the plugin/theme
 msgid "Twenty Twenty-Two Child Theme made by shambhala.nl"
 msgstr "Twenty Twenty-Two Child Thema gemaakt door shambhala.nl"
@@ -459,6 +426,36 @@ msgstr "Het shambhala.nl team"
 #. Author URI of the plugin/theme
 msgid "https://shambhala.nl/"
 msgstr "https://shambhala.nl/"
+
+#~ msgid "About Shambhala"
+#~ msgstr "Over Shambhala"
+
+#~ msgid ""
+#~ "Through awakening our inherent goodness and potential as human beings – "
+#~ "as individuals and as social networks and communities – we can help to "
+#~ "foster an awake and compassionate global human society."
+#~ msgstr ""
+#~ "Door onze inherente goedheid en ons potentieel als mens te doen ontwaken "
+#~ "- als individu en als sociaal netwerk en gemeenschap - kunnen wij een "
+#~ "bijdrage leveren aan de totstandkoming van een wakkere en compassievolle "
+#~ "wereldwijde menselijke samenleving."
+
+#~ msgid ""
+#~ "Shambhala is a global community of people inspired by the principle that "
+#~ "every human being has a fundamental nature of basic goodness."
+#~ msgstr ""
+#~ "Shambhala is een wereldwijde gemeenschap van mensen die zich laten "
+#~ "inspireren door het principe dat ieder mens een natuur van fundamentele "
+#~ "goedheid heeft."
+
+#~ msgid "Welcome section with text."
+#~ msgstr "Welkom sectie met tekst."
+
+#~ msgid "New York"
+#~ msgstr "New York"
+
+#~ msgid "Creating Enlighted Society"
+#~ msgstr "Het creëren van een verlichte samenleving"
 
 #, fuzzy
 #~| msgid "Community gathering"
