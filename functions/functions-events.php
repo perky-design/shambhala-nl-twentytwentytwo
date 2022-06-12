@@ -31,11 +31,6 @@ function shambhala_twentytwentytwo_filter_the_content( $content ) {
 				}
 			}
 
-			// $debug        = '<pre>';
-			// $debug       .= var_export( $tribe_meta, true );
-			// $debug       .= '</pre>';
-			// $pre_content .= $debug;
-
 			return $pre_content . $content . $post_content;
 		}
 		return $content;
@@ -52,7 +47,7 @@ add_filter( 'the_content', 'shambhala_twentytwentytwo_filter_the_content', 1 );
  * @return mixed false or string with HTML
  */
 function shambhala_twentytwentytwo_get_registration_button( $tribe_meta ) {
-	// var_dump($tribe_meta);
+
 	if ( isset( $tribe_meta['_EventURL'][0] )
 		&& preg_match( '/registration/i', $tribe_meta['_EventURL'][0] ) ) {
 			$button  = '<div class="wp-container-13 wp-block-buttons">';
