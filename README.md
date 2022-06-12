@@ -59,6 +59,8 @@ To fix the JS, use the command: ```npm run lint-fix:js```
 
 ## Changelog
 
+0.2.0 Added filter to display registration button for Events, plus style updates
+
 0.1.10 More style fixes
 
 0.1.9 Minor style fixes
