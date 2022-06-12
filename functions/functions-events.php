@@ -50,13 +50,15 @@ function shambhala_twentytwentytwo_get_registration_button( $tribe_meta ) {
 
 	if ( isset( $tribe_meta['_EventURL'][0] )
 		&& preg_match( '/registration/i', $tribe_meta['_EventURL'][0] ) ) {
-			$button  = '<div class="wp-container-13 wp-block-buttons">';
-			$button .= '<div class="wp-block-button">';
-			$button .= '<a class="wp-block-button__link" href="';
+			$button  = '<!-- wp:buttons -->';
+			$button .= '<div class="wp-block-buttons"><!-- wp:button -->';
+			$button .= '<div class="wp-block-button"><a class="wp-block-button__link" href="';
 			$button .= $tribe_meta['_EventURL'][0];
 			$button .= '">';
 			$button .= __( 'Register', 'shambhala-twentytwentytwo' );
-			$button .= '</a></div></div>';
+			$button .= '</a></div>';
+			$button .= '<!-- /wp:button --></div>';
+			$button .= '<!-- /wp:buttons --></div></div>';
 
 			return $button;
 	}
