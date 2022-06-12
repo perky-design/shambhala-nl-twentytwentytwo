@@ -56,9 +56,14 @@
 
 /* Cover image hero with text with background */
 
-.cover-image-with-text-has-background h1.has-background,
-.cover-image-with-text-has-background p {
+.cover-image-with-text h1,
+.cover-image-with-text p {
 	padding: 1.25rem 2.375rem !important;
+}
+
+.has-lead-font-size {
+	font-size: 2rem;
+	font-size: clamp(1.25rem, 6vw, 1.85rem);
 }
 
 /* End Cover image hero with text with background */

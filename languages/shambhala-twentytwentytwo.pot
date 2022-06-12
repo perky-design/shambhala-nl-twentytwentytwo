@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Shambhala Twenty Twenty-Two\n"
-"POT-Creation-Date: 2022-06-05 09:09+0200\n"
+"POT-Creation-Date: 2022-06-12 07:55+0200\n"
 "PO-Revision-Date: 2022-05-26 13:37+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -52,6 +52,10 @@ msgstr ""
 msgid "Query"
 msgstr ""
 
+#: functions/functions-events.php:58
+msgid "Register"
+msgstr ""
+
 #: functions/functions-theme-setup.php:163
 msgid "Rounded image"
 msgstr ""
@@ -79,17 +83,6 @@ msgstr ""
 #: patterns/hero-cover.php:14
 msgctxt "shambhala-twentytwentytwo"
 msgid "Hero image with text that has background color"
-msgstr ""
-
-#: patterns/hero-cover.php:24
-msgid "About Shambhala"
-msgstr ""
-
-#: patterns/hero-cover.php:28
-msgid ""
-"Through awakening our inherent goodness and potential as human beings – as "
-"individuals and as social networks and communities – we can help to foster "
-"an awake and compassionate global human society."
 msgstr ""
 
 #: patterns/hidden-404.php:9
@@ -133,15 +126,8 @@ msgstr ""
 msgid "Landing page with hero image."
 msgstr ""
 
-#: patterns/page-landing-hero.php:28 patterns/page-landing-hero.php:44
-#: patterns/section-three-columns.php:12
+#: patterns/page-landing-hero.php:44 patterns/section-three-columns.php:12
 msgid "Shambhala: a global community"
-msgstr ""
-
-#: patterns/page-landing-hero.php:32
-msgid ""
-"Shambhala is a global community of people inspired by the principle that "
-"every human being has a fundamental nature of basic goodness."
 msgstr ""
 
 #: patterns/page-landing-hero.php:50 patterns/section-three-columns.php:18
@@ -379,18 +365,6 @@ msgstr ""
 
 #: patterns/section-two-columns.php:9
 msgid "Two columns with text."
-msgstr ""
-
-#: patterns/section-welcome-text.php:9
-msgid "Welcome section with text."
-msgstr ""
-
-#: patterns/section-welcome-text.php:13
-msgid "New York"
-msgstr ""
-
-#: patterns/section-welcome-text.php:17
-msgid "Creating Enlighted Society"
 msgstr ""
 
 #. Description of the plugin/theme
