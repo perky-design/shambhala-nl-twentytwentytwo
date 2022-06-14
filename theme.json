@@ -68,6 +68,11 @@
 					"name": "Vertical secondary to background"
 				},
 				{
+					"slug": "vertical-background-to-secondary",
+					"gradient": "linear-gradient(0deg, var(--wp--preset--color--secondary) 0%, #FFC538 32%, var(--wp--preset--color--background) 100%)",
+					"name": "Vertical background to secondary"
+				},
+				{
 					"slug": "vertical-tertiary-to-background",
 					"gradient": "linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%)",
 					"name": "Vertical tertiary to background"
