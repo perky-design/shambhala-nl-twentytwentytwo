@@ -1,6 +1,7 @@
 <?php
 /**
- * Landing page pattern for content heavy pages.
+ * Title: Landing page pattern for content heavy pages
+ * Slug: shambhala-twentytwentytwo/page-landing-text
  *
  * @package Shambhala Twenty Twenty-Two
  */

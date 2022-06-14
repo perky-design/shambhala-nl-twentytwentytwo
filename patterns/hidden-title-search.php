@@ -1,6 +1,7 @@
 <?php
 /**
- * Search result title.
+ * Title: Search result title
+ * Slug: shambhala-twentytwentytwo/hidden-title-search
  *
  * @package Shambhala Twenty Twenty-Two
  */

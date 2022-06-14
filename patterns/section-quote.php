@@ -1,6 +1,7 @@
 <?php
 /**
- * Quote with citation
+ * Title: Quote with citation
+ * Slug: shambhala-twentytwentytwo/section-quote
  *
  * @package Shambhala Twenty Twenty-Two
  */

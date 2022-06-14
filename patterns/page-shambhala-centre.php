@@ -1,6 +1,7 @@
 <?php
 /**
- * Page pattern for Shambhala centre page.
+ * Title: Page pattern for Shambhala centre page
+ * Slug: shambhala-twentytwentytwo/page-shambhala-centre
  *
  * @package Shambhala Twenty Twenty-Two
  */
@@ -8,16 +9,16 @@
 return array(
 	'title'      => __( 'Landing page for Shambhala centre page.', 'shambhala-twentytwentytwo' ),
 	'categories' => array( 'sh-page' ),
-	'content'    => '<!-- wp:cover {"url":"https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/zalmhaven.jpg","id":3270,"dimRatio":40,"overlayColor":"secondary","focalPoint":{"x":"0.50","y":"0.24"},"minHeight":800,"minHeightUnit":"px","isDark":false,"align":"full","className":"cover-image-with-text"} -->
-		<div class="wp-block-cover alignfull is-light cover-image-with-text" style="min-height:800px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-40 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-3270" alt="" src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/zalmhaven.jpg" style="object-position:50% 24%" data-object-fit="cover" data-object-position="50% 24%"/><div class="wp-block-cover__inner-container"><!-- wp:columns {"className":"width-full-size "} -->
-		<div class="wp-block-columns width-full-size"><!-- wp:column -->
+	'content'    => '<!-- wp:cover {"url":"https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/zalmhaven.jpg","id":3270,"dimRatio":40,"focalPoint":{"x":"0.50","y":"0.24"},"minHeight":800,"minHeightUnit":"px","gradient":"vertical-background-to-secondary","isDark":false,"align":"full","className":"cover-image-with-text"} -->
+		<div class="wp-block-cover alignfull is-light cover-image-with-text" style="min-height:800px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-40 has-background-dim wp-block-cover__gradient-background has-background-gradient has-vertical-background-to-secondary-gradient-background"></span><img class="wp-block-cover__image-background wp-image-3270" alt="" src="https://raw.githubusercontent.com/perky-design/shambhala-nl-twentytwentytwo-images/main/zalmhaven.jpg" style="object-position:50% 24%" data-object-fit="cover" data-object-position="50% 24%"/><div class="wp-block-cover__inner-container"><!-- wp:columns -->
+		<div class="wp-block-columns"><!-- wp:column -->
 		<div class="wp-block-column"><!-- wp:group {"layout":{"inherit":false}} -->
 		<div class="wp-block-group"><!-- wp:spacer {"height":"600px"} -->
 		<div style="height:600px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 
-		<!-- wp:heading {"level":1,"backgroundColor":"primary","textColor":"background"} -->
-		<h1 class="has-background-color has-primary-background-color has-text-color has-background">Shambhala Meditatie Centrum Rotterdam</h1>
+		<!-- wp:heading {"level":1,"textColor":"background"} -->
+		<h1 class="has-background-color has-text-color">Shambhala Meditatie Centrum Rotterdam</h1>
 		<!-- /wp:heading --></div>
 		<!-- /wp:group --></div>
 		<!-- /wp:column --></div>

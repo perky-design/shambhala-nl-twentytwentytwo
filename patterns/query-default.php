@@ -1,6 +1,7 @@
 <?php
 /**
- * Query list one column
+ * Title: Query list one column
+ * Slug: shambhala-twentytwentytwo/query-default
  *
  * @package Shambhala Twenty Twenty-Two
  */

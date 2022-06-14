@@ -1,6 +1,7 @@
 <?php
 /**
- * News overview title.
+ * Title: News overview title
+ * Slug: shambhala-twentytwentytwo/hidden-title-news
  *
  * @package Shambhala Twenty Twenty-Two
  */

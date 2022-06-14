@@ -1,6 +1,7 @@
 <?php
 /**
- * 404 error content
+ * Title: 404 error content
+ * Slug: shambhala-twentytwentytwo/hidden-404
  *
  * @package Shambhala Twenty Twenty-Two
  */
