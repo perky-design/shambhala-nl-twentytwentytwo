@@ -1,6 +1,7 @@
 <?php
 /**
- * Header with site title, navigation
+ * Title: Header with site title, navigation
+ * Slug: shambhala-twentytwentytwo/header-default
  *
  * @package Shambhala Twenty Twenty-Two
  */

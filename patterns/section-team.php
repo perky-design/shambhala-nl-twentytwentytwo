@@ -1,6 +1,7 @@
 <?php
 /**
- * Meet the Team
+ * Title: Meet the Team
+ * Slug: shambhala-twentytwentytwo/section-team
  *
  * @package Shambhala Twenty Twenty-Two
  */

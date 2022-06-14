@@ -1,6 +1,7 @@
 <?php
 /**
- * Footer with text, button, links
+ * Title: Footer with text, button, links
+ * Slug: shambhala-twentytwentytwo/footer-default
  *
  * @package Shambhala Twenty Twenty-Two
  */

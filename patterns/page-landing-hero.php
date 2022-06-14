@@ -1,6 +1,7 @@
 <?php
 /**
- * Landing page with hero image and sections.
+ * Title: Landing page with hero image and sections
+ * Slug: shambhala-twentytwentytwo/page-landing-hero
  *
  * @package Shambhala Twenty Twenty-Two
  */

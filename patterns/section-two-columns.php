@@ -1,6 +1,7 @@
 <?php
 /**
- * Two columns section with text.
+ * Title: Section with text (2 columns)
+ * Slug: shambhala-twentytwentytwo/section-two-columns
  *
  * @package Shambhala Twenty Twenty-Two
  */

@@ -1,6 +1,7 @@
 <?php
 /**
- * Description section with text
+ * Title: Section with text (variant 3)
+ * Slug: shambhala-twentytwentytwo/section-image-with-text-3
  *
  * @package Shambhala Twenty Twenty-Two
  */

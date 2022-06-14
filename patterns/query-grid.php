@@ -1,6 +1,7 @@
 <?php
 /**
- * Query grid three columns
+ * Title: Query grid three columns
+ * Slug: shambhala-twentytwentytwo/query-grid
  *
  * @package Shambhala Twenty Twenty-Two
  */

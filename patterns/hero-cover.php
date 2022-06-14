@@ -1,6 +1,7 @@
 <?php
 /**
- * Hero image with text that has background color.
+ * Title: Hero image with text that has background color
+ * Slug: shambhala-twentytwentytwo/hero-cover
  *
  * @package Shambhala Twenty Twenty-Two
  */

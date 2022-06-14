@@ -1,6 +1,7 @@
 <?php
 /**
- * Query list small
+ * Title: Query list small
+ * Slug: shambhala-twentytwentytwo/query-small
  *
  * @package Shambhala Twenty Twenty-Two
  */
