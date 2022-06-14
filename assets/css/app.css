@@ -178,12 +178,12 @@ footer.wp-block-template-part {
 	margin-block-end: calc(var(--wp--style--block-gap) / 2);
 }
 
-footer .has-small-font-size a {
+.shambhala-twentytwentytwo .shambhala-twentytwentytwo-footer .has-small-font-size a {
 	text-decoration: none;
 }
 
-footer .has-small-font-size a:hover,
-footer .has-small-font-size a:active {
+.shambhala-twentytwentytwo .shambhala-twentytwentytwo-footer .has-small-font-size a:hover,
+.shambhala-twentytwentytwo .shambhala-twentytwentytwo-footer .has-small-font-size a:active {
 	text-decoration: underline;
 }
 
