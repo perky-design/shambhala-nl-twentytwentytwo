@@ -73,9 +73,7 @@ if ( ! function_exists( 'twentytwentytwo_editor_styles' ) ) :
 	 * @return void
 	 */
 	function shambhala_twentytwentytwo_editor_styles() {
-
-		// Add styles inline.
-		wp_add_inline_style( 'wp-block-library', shambhala_twentytwentytwo_get_font_face_styles() );
+		shambhala_twentytwentytwo_get_font_face_styles();
 	}
 
 endif;
@@ -131,12 +129,13 @@ add_action( 'wp_head', 'shambhala_twentytwentytwo_preload_webfonts' );
 /**
  * Add stylesheet class to body.
  *
- * @param array $classes The classes for the body tag.
- * @return array $classes_plus The classes for the body tag.
+ * @param array $classes The current array of body classes.
+ *
+ * @return array The modified array of body classes.
  */
-function shambhala_twentytwentytwo_body_class( $classes ) {
-	$classes_plus = array_merge( $classes, array( 'shambhala-twentytwentytwo' ) );
-	return $classes_plus;
+function shambhala_twentytwentytwo_body_class( array $classes ) {
+	$theme_classes = array( 'shambhala-twentytwentytwo' );
+	return array_merge( $classes, $theme_classes );
 }
 add_filter( 'body_class', 'shambhala_twentytwentytwo_body_class' );
 
@@ -256,21 +255,12 @@ function shambhala_twentytwentytwo_version() {
 
 /**
  * Load translations for shambhala-twentytwentytwo.
+ *
+ * @return void
  */
 function shambhala_twentytwentytwo_translations() {
 	load_child_theme_textdomain( 'shambhala-twentytwentytwo', get_stylesheet_directory() . '/languages' );
 }
 add_action( 'after_setup_theme', 'shambhala_twentytwentytwo_translations' );
 
-/**
- * Allow svg uploads for shambhala-twentytwentytwo.
- *
- * @param array $mimes mime types.
- * @return array $mimes mime types.
- */
-function shambhala_twentytwentytwo_mime_types( $mimes ) {
-	$mimes['svg'] = 'image/svg+xml';
-	return $mimes;
-}
-add_filter( 'upload_mimes', 'shambhala_twentytwentytwo_mime_types' );
 

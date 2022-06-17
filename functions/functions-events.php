@@ -17,14 +17,15 @@ function shambhala_twentytwentytwo_filter_the_content( $content ) {
 		global $post;
 
 		// Check if this is an Event from The Events Calendar.
-		if ( 'tribe_events' === $post->post_type ) {
+		if ( function_exists( 'tribe_get_event' )
+			&& 'tribe_events' === $post->post_type ) {
 			$pre_content  = '';
 			$post_content = '';
 			$tribe_event  = tribe_get_event( $post->ID );
 			$tribe_meta   = get_post_meta( $post->ID );
 
 			// Event in the future.
-			if ( ! $tribe_event->is_past ) {
+			if ( is_array( $tribe_meta ) && ! $tribe_event->is_past ) {
 				$registration_button = shambhala_twentytwentytwo_get_registration_button( $tribe_meta );
 				if ( $registration_button ) {
 					$post_content .= $registration_button;
@@ -46,7 +47,7 @@ add_filter( 'the_content', 'shambhala_twentytwentytwo_filter_the_content', 1 );
  *
  * @return mixed false or string with HTML
  */
-function shambhala_twentytwentytwo_get_registration_button( $tribe_meta ) {
+function shambhala_twentytwentytwo_get_registration_button( array $tribe_meta ) {
 
 	if ( isset( $tribe_meta['_EventURL'][0] )
 		&& preg_match( '/registration/i', $tribe_meta['_EventURL'][0] ) ) {

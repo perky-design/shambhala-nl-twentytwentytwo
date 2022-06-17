@@ -8,7 +8,7 @@
 
 // Get URL for Page for post setting.
 $news_page_id = get_option( 'page_for_posts' );
-if ( $news_page_id ) {
+if ( $news_page_id && is_int( $news_page_id ) ) {
 	$news_url = get_permalink( $news_page_id );
 } else {
 	$news_url = '#';
