@@ -43,11 +43,12 @@ add_filter( 'the_content', 'shambhala_twentytwentytwo_filter_the_content', 1 );
 /**
  * Display Registration button (or not)
  *
- * @param array $tribe_meta The Tribe event post meta.
+ * @param array $tribe_meta the Tribe event post meta.
  *
  * @return mixed false or string with HTML
  */
-function shambhala_twentytwentytwo_get_registration_button( $tribe_meta = array() ) {
+function shambhala_twentytwentytwo_get_registration_button( $tribe_meta ) {
+
 	if ( isset( $tribe_meta['_EventURL'][0] )
 		&& preg_match( '/registration/i', $tribe_meta['_EventURL'][0] ) ) {
 			$button  = '<!-- wp:buttons -->';

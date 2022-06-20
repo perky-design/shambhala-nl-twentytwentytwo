@@ -3,8 +3,10 @@
 includes:
 	- vendor/phpstan/phpstan/conf/bleedingEdge.neon
 	- vendor/szepeviktor/phpstan-wordpress/extension.neon
+	- phpstan-baseline.neon
 parameters:
-	level: 5
+	level: max
+	checkMissingIterableValueType: false
 	paths:
 		- functions.php
 		- index.php
