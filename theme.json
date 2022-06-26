@@ -179,6 +179,7 @@
 			"typography": {
 				"font-size": {
 					"normal": "clamp(1.8rem, 2vw, 2rem)",
+					"bigger": "clamp(0.90rem, 1.3vw, 1.75rem)",
 					"huge": "clamp(2.25rem, 4vw, 2.75rem)",
 					"gigantic": "clamp(2.55rem, 6vw, 4.15rem)",
 					"colossal": "clamp(3.25rem, 8vw, 6.25rem)"
@@ -271,6 +272,10 @@
 			"core/pullquote": {
 				"border": {
 					"width": "1px 0"
+				},
+				"typography": {
+					"lineHeight": "var(--wp--custom--typography--line-height--normal)",
+					"fontSize": "var(--wp--custom--typography--font-size--bigger)"
 				}
 			},
 			"core/query-title": {
