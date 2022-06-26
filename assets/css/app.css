@@ -21,14 +21,14 @@ strong {
 	text-decoration: none;
 }
 
+.has-small-font-size a {
+	text-decoration: none;
+}
+
 .has-text-color a,
 .has-foreground-color.has-text-color a,
 .has-background-color.has-text-color a {
 	color: inherit !important;
-}
-
-footer .has-small-font-size a {
-	text-decoration: none;
 }
 
 .link-no-underline a:hover {
@@ -190,8 +190,6 @@ footer .has-small-font-size a:active {
 	text-decoration: underline;
 }
 
-
-
 /* End Footer styling */
 
 /* Google maps custom HTML */
@@ -210,7 +208,6 @@ footer .has-small-font-size a:active {
 }
 
 /* End Google maps custom HTML */
-
 
 /* Program styling */
 
@@ -251,4 +248,3 @@ footer .has-small-font-size a:active {
 .program-list .program p {
 	display: none;
 }
-
