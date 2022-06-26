@@ -1,0 +1,16 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Function shambhala_twentytwentytwo_get_registration_button\\(\\) has parameter \\$tribe_meta with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: functions/functions-events.php
+
+		-
+			message: "#^Function shambhala_twentytwentytwo_body_class\\(\\) has parameter \\$classes with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: functions/functions-theme-setup.php
+
+		-
+			message: "#^Function shambhala_twentytwentytwo_body_class\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: functions/functions-theme-setup.php

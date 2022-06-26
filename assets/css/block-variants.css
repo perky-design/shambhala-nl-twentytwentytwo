@@ -63,7 +63,32 @@
 
 .has-lead-font-size {
 	font-size: 2rem;
-	font-size: clamp(1.25rem, 6vw, 1.85rem);
+	font-size: clamp(1.25rem, 4vw, 1.85rem);
+}
+
+@media (max-width: 600px) {
+
+	.wp-block-cover {
+		height: auto !important;
+		max-height: 80vh !important;
+		min-height: 80vh !important;
+	}
+
+	.wp-block-cover.cover-image-with-text .wp-block-spacer {
+		height: 318px !important;
+	}
+
+	.home .wp-block-cover.cover-image-with-text .wp-block-spacer {
+		height: 200px !important;
+	}
+}
+
+@media (max-width: 400px) {
+
+	.home .wp-block-cover.cover-image-with-text .wp-block-spacer {
+		display: none;
+	}
+
 }
 
 /* End Cover image hero with text with background */

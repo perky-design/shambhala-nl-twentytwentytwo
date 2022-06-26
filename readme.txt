@@ -57,6 +57,7 @@ To fix the JS, use the command: ```npm run lint-fix:js```
 
 == Changelog ==
 
+0.2.2 CSS fixes for site logo, cover images, and program pages
 0.2.1 Added gradient in color palette + bug fixes
 0.2.0 Added filter to display registration button for Events, plus style updates
 0.1.10 More style fixes
