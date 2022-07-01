@@ -210,6 +210,21 @@ footer .has-small-font-size a:active {
 /* End Google maps custom HTML */
 
 /* Program styling */
+.program-single-page-excerpt {
+	font-style: italic;
+}
+
+@media (min-width: 768px) {
+
+	.tribe-events-meta-group {
+		padding: var(--tec-spacer-7) 0 var(--tec-spacer-3);
+		width: auto;
+	}
+}
+
+.tribe-single-event-date-info {
+	font-size: var(--wp--preset--font-size--x-large);
+}
 
 .program-list .program {
 	background-color: var(--wp--preset--color--light-grey);
