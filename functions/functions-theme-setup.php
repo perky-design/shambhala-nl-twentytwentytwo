@@ -52,7 +52,7 @@ function shambhala_twentytwentytwo_enqueue_scripts() {
 	);
 	wp_enqueue_style( 'shambhala-twentytwentytwo-app' );
 
-	// Child theme CSS for styling bloack variants.
+	// Child theme CSS for styling block variants.
 	wp_register_style(
 		'shambhala-twentytwentytwo-block-variants',
 		get_stylesheet_directory_uri() . '/assets/css/block-variants.css',
