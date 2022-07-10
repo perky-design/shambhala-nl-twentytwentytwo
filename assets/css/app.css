@@ -214,6 +214,10 @@ footer .has-small-font-size a:active {
 	font-style: italic;
 }
 
+.tribe-events-meta-group a {
+	color: inherit;
+}
+
 @media (min-width: 768px) {
 
 	.tribe-events-meta-group {
@@ -222,8 +226,12 @@ footer .has-small-font-size a:active {
 	}
 }
 
+.wp-block-post-featured-image.program-featured-image img {
+	width: auto;
+}
+
 .tribe-single-event-date-info {
-	font-size: var(--wp--preset--font-size--x-large);
+	font-size: var(--wp--preset--font-size--medium);
 }
 
 .program-list .program {

@@ -23,6 +23,9 @@ function shambhala_twentytwentytwo_filter_the_content( $content ) {
 			$tribe_event   = tribe_get_event( $post->ID );
 			$tribe_meta    = get_post_meta( $post->ID );
 			$venue_details = tribe_get_venue_details();
+			$date_info     = wp_strip_all_tags( tribe_events_event_schedule_details( $post ) );
+
+			$pre_content .= '<h2 class="tribe-single-event-date-info">' . $date_info . '</h2>';
 
 			// Add excerpt before content.
 			if ( isset( $tribe_event->post_excerpt ) ) {
@@ -39,7 +42,7 @@ function shambhala_twentytwentytwo_filter_the_content( $content ) {
 
 			// Add event details.
 			$post_content .= shambhala_twentytwentytwo_get_details();
-			$post_content .= shambhala_twentytwentytwo_get_venue( $post->ID );
+			$post_content .= shambhala_twentytwentytwo_get_organizer( $post->ID );
 			return $pre_content . $content . $post_content;
 		}
 		return $content;
@@ -60,18 +63,39 @@ function shambhala_twentytwentytwo_get_registration_button( $tribe_meta ) {
 	if ( isset( $tribe_meta['_EventURL'][0] )
 		&& preg_match( '/registration/i', $tribe_meta['_EventURL'][0] ) ) {
 			$button  = '<!-- wp:buttons -->';
-			$button .= '<div class="wp-block-buttons"><!-- wp:button -->';
-			$button .= '<div class="wp-block-button"><a class="wp-block-button__link" href="';
+			$button .= '<div class="wp-block-buttons">';
+			$button .= '<!-- wp:button -->';
+			$button .= '<div class="wp-block-button">';
+			$button .= '<a class="wp-block-button__link" href="';
 			$button .= $tribe_meta['_EventURL'][0];
 			$button .= '">';
 			$button .= __( 'Register', 'shambhala-twentytwentytwo' );
-			$button .= '</a></div>';
+			$button .= '</a>';
 			$button .= '<!-- /wp:button --></div>';
-			$button .= '<!-- /wp:buttons --></div></div>';
+			$button .= '<!-- /wp:buttons --></div>';
 
 			return $button;
 	}
 	return false;
+}
+
+
+/**
+ * Display organizer info.
+ *
+ * @param int $event_id The event ID..
+ *
+ * @return string HTML of empty string.
+ */
+function shambhala_twentytwentytwo_get_organizer( $event_id ) {
+	$organizer_id   = (int) tribe_get_organizer_id( $event_id );
+	$organizer_link = get_post_permalink( $organizer_id );
+
+	$html .= '<h3>' . __( 'Organizer', 'shambhala-twentytwentytwo' ) . '</h3>';
+	$html .= '<h4>' . tribe_get_organizer( $post->ID ) . '</h4>';
+	$html .= '<p><a href="' . $organizer_link . '">' . __( 'View all events by this organizer', 'shambhala-twentytwentytwo' ) . '</a></p>';
+
+	return $html;
 }
 
 /**
@@ -95,13 +119,15 @@ function shambhala_twentytwentytwo_get_venue( $event_id ) {
 	);
 
 	if ( $venue_name ) {
+
 		$html .= '<div class="tribe-events-venue-details">';
-		$html .= '<h2 class="tribe-events-single-section-title">' . esc_html__( 'Venue', 'shambhala-twentytwentytwo' ) . '<h2>';
+		$html .= '<h2 class="tribe-events-single-section-title">' . esc_html__( 'Venue', 'shambhala-twentytwentytwo' ) . '</h2>';
 		$html .= '<h3>' . $venue_name . '</h3>';
 		$html .= '<p>' . $venue_address['street'] . '<br>';
 		$html .= $venue_address['zip'] . ' ' . $venue_address['city'] . '<br>';
 		$html .= '<a href="' . $venue_url . '">' . esc_html__( 'View venue calendar', 'shambhala-twentytwentytwo' ) . '</a>';
-		$html .= '</div>';
+		$html .= '</div><!-- tribe-events-venue-details -->';
+
 		return $html;
 	}
 	return '';
@@ -160,10 +186,15 @@ function shambhala_twentytwentytwo_get_details() {
 		$html = '';
 		$cost = tribe_get_formatted_cost();
 
+		$html .= '<!-- wp:spacer {"height":"32px"} --><div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div><!-- /wp:spacer -->';
+		$html .= '<!-- wp:group {"layout":{"inherit":true}} -->';
 		$html .= '<div class="wp-block-group">';
-		$html .= '<div class="wp-block-columns"><div class="wp-block-column">';
+		$html .= '<!-- wp:columns -->';
+		$html .= '<div class="wp-block-columns">';
+		$html .= '<!-- wp:columns -->';
+		$html .= '<div class="wp-block-column">';
 		$html .= '<div class="tribe-events-meta-group tribe-events-meta-group-details">';
-		$html .= '<h2 class="tribe-events-single-section-title">' . esc_html__( 'Details', 'shambhala-twentytwentytwo' ) . '</h2>';
+		$html .= '<h2>' . esc_html__( 'Details', 'shambhala-twentytwentytwo' ) . '</h2>';
 		$html .= '<dl>';
 
 		// All day (multiday) events.
@@ -233,8 +264,8 @@ function shambhala_twentytwentytwo_get_details() {
 			)
 		);
 
-		$html .= '</dl>';
-		$html .= '</div></div></div></div>';
+		$html .= '</dl></div><!-- tribe-events-meta-group tribe-events-meta-group-details -->';
+		$html .= '</div><!-- /wp:column --></div><!-- /wp:columns --></div><!-- /wp:group -->';
 
 		return $html;
 	}
@@ -242,23 +273,4 @@ function shambhala_twentytwentytwo_get_details() {
 	return false;
 }
 
-/**
- * Display date and time after the title on the event page.
- *
- * @param string $title The title.
- *
- * @return string HTML
- */
-function shambhala_twentytwentytwo_single_event_title( $title ) {
-	global $post;
-	if ( is_singular() && is_main_query() ) {
-		if ( 'tribe_events' === $post->post_type && function_exists( 'tribe_events_event_schedule_details' ) ) {
-			$date_info    = wp_strip_all_tags( tribe_events_event_schedule_details( $post ) );
-			$date_display = '<h2 class="tribe-single-event-date-info">' . $date_info . '</h2>';
-			return $title . $date_display;
-		}
-	}
-	return $title;
-}
-add_filter( 'the_title', 'shambhala_twentytwentytwo_single_event_title' );
 
