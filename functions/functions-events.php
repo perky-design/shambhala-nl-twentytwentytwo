@@ -274,3 +274,22 @@ function shambhala_twentytwentytwo_get_details() {
 }
 
 
+/**
+ * Display date and time after the title on the event page.
+ *
+ * @param string $title The title.
+ *
+ * @return string HTML
+ */
+function shambhala_twentytwentytwo_single_event_title( $title ) {
+	global $post;
+	if ( is_singular() && is_main_query() ) {
+		if ( 'tribe_organizer' === $post->post_type || 'tribe_venue' === $post->post_type ) {
+			return __( 'Events', 'shambhala-twentytwentytwo' ) . ' > ' . $title;
+		}
+	}
+
+	return $title;
+}
+add_filter( 'the_title', 'shambhala_twentytwentytwo_single_event_title' );
+

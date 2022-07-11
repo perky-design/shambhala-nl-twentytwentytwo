@@ -218,6 +218,10 @@ footer .has-small-font-size a:active {
 	color: inherit;
 }
 
+.tribe-events-header__breadcrumbs.tribe-events-c-breadcrumbs {
+	display: none;
+}
+
 @media (min-width: 768px) {
 
 	.tribe-events-meta-group {
