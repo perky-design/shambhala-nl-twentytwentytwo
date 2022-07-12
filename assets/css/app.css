@@ -25,6 +25,10 @@ strong {
 	text-decoration: none;
 }
 
+.tribe-events-meta-group a {
+	color: inherit;
+}
+
 .has-text-color a,
 .has-foreground-color.has-text-color a,
 .has-background-color.has-text-color a {
@@ -214,6 +218,10 @@ footer .has-small-font-size a:active {
 	font-style: italic;
 }
 
+.tribe-events-header__breadcrumbs.tribe-events-c-breadcrumbs {
+	display: none;
+}
+
 @media (min-width: 768px) {
 
 	.tribe-events-meta-group {
@@ -222,8 +230,16 @@ footer .has-small-font-size a:active {
 	}
 }
 
+.program-image img {
+	max-width: 100%;
+}
+
+.wp-block-post-featured-image.program-featured-image img {
+	width: auto;
+}
+
 .tribe-single-event-date-info {
-	font-size: var(--wp--preset--font-size--x-large);
+	font-size: var(--wp--preset--font-size--medium);
 }
 
 .program-list .program {
@@ -241,10 +257,6 @@ footer .has-small-font-size a:active {
 	display: inline-block;
 	max-width: 600px !important;
 	padding-bottom: var(--wp--style--block-gap);
-}
-
-.program-image img {
-	max-width: 100%;
 }
 
 .program-right-container i {

@@ -64,6 +64,7 @@ function shambhala_twentytwentytwo_register_block_patterns() {
 		'header-default',
 		'hero-cover',
 		'hidden-404',
+		'hidden-title-events',
 		'hidden-title-news',
 		'hidden-title-search',
 		'page-landing-hero',
