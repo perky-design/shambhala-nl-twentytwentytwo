@@ -19,6 +19,36 @@
 				"page",
 				"post"
 			]
+		},
+		{
+			"name": "single-tribe_events",
+			"title": "Single Tribe Event",
+			"postTypes": [
+				"tribe_events"
+			]
+		},
+		{
+			"name": "single-tribe_venue",
+			"title": "Single Tribe Venue",
+			"postTypes": [
+				"tribe_venue",
+				"tribe_events"
+			]
+		},
+		{
+			"name": "archive-tribe_events",
+			"title": "Archive Tribe Events",
+			"postTypes": [
+				"tribe_events"
+			]
+		},
+		{
+			"name": "single-tribe_organizer",
+			"title": "Single Tribe Organizer",
+			"postTypes": [
+				"tribe_organizer",
+				"tribe_events"
+			]
 		}
 	],
 	"settings": {
@@ -170,7 +200,7 @@
 			"spacing": {
 				"mini": "clamp(0.25rem, 5.6vw - 2.2rem, 2rem)",
 				"small": "max(1.25rem, 5vw)",
-				"medium": "clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)))",
+				"medium": "clamp(2rem, 3vw, 4rem)",
 				"large": "clamp(4rem, 10vw, 8rem)",
 				"outer": "var(--wp--custom--spacing--small, 1.25rem)"
 			},
