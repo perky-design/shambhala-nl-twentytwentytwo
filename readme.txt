@@ -57,6 +57,7 @@ To fix the JS, use the command: ```npm run lint-fix:js```
 
 == Changelog ==
 
+0.3.2 Update translations
 0.3.1 Template layout improvements
 0.3.0 Add templates for The Event plugin
 0.2.2 CSS fixes for site logo, cover images, and program pages

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Shambhala Twenty Twenty-Two\n"
-"POT-Creation-Date: 2022-07-01 14:48+0200\n"
-"PO-Revision-Date: 2022-07-01 14:49+0200\n"
+"POT-Creation-Date: 2022-07-12 07:52+0200\n"
+"PO-Revision-Date: 2022-07-12 07:54+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1\n"
+"X-Generator: Poedit 3.1.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -52,41 +52,47 @@ msgstr "Footers"
 msgid "Query"
 msgstr "Zoekopdracht"
 
-#: functions/functions-events.php:67
+#: functions/functions-events.php:75
 msgid "Register"
 msgstr "Registreren"
 
-#: functions/functions-events.php:99
-msgid "Venue"
-msgstr "Locatie"
+#: functions/functions-events.php:100
+msgid "Organizer"
+msgstr "Organisator"
 
-#: functions/functions-events.php:103
-msgid "View venue calendar"
-msgstr "Lokale agenda"
+#. translators: %s is replaced with "organizer link URL"
+#: functions/functions-events.php:104
+#, php-format
+msgid "<a href=\"%s\">View all events by this organizer</a>"
+msgstr "<a href=“%s”>Bekijk alle evenementen van deze organisator</a>"
 
-#: functions/functions-events.php:153
+#: functions/functions-events.php:169
 msgid "Time:"
 msgstr "Tijd:"
 
-#: functions/functions-events.php:166
+#: functions/functions-events.php:187
 msgid "Details"
 msgstr "Details"
 
-#: functions/functions-events.php:171 functions/functions-events.php:187
+#: functions/functions-events.php:194 functions/functions-events.php:210
 msgid "Start:"
 msgstr "Start:"
 
-#: functions/functions-events.php:175 functions/functions-events.php:194
+#: functions/functions-events.php:198 functions/functions-events.php:217
 msgid "End:"
 msgstr "Einde:"
 
-#: functions/functions-events.php:181 functions/functions-events.php:203
+#: functions/functions-events.php:204 functions/functions-events.php:226
 msgid "Date:"
 msgstr "Datum:"
 
-#: functions/functions-events.php:218
+#: functions/functions-events.php:241
 msgid "Cost:"
 msgstr "Kosten:"
+
+#: functions/functions-events.php:283 patterns/hidden-title-events.php:9
+msgid "Events"
+msgstr "Evenementen"
 
 #: functions/functions-theme-setup.php:162
 msgid "Rounded image"
@@ -146,11 +152,15 @@ msgstr "Zoeken"
 msgid "Search"
 msgstr "Zoeken"
 
+#: patterns/hidden-title-events.php:12
+msgid "Events overview title"
+msgstr "Evenementenoverzicht titel"
+
 #: patterns/hidden-title-news.php:15
 msgid "News"
 msgstr "Nieuws"
 
-#: patterns/hidden-title-news.php:19
+#: patterns/hidden-title-news.php:20
 msgid "News title"
 msgstr "Titel nieuws"
 
@@ -462,6 +472,12 @@ msgstr "Het shambhala.nl team"
 #. Author URI of the plugin/theme
 msgid "https://shambhala.nl/"
 msgstr "https://shambhala.nl/"
+
+#~ msgid "Venue"
+#~ msgstr "Locatie"
+
+#~ msgid "View venue calendar"
+#~ msgstr "Lokale agenda"
 
 #~ msgid "About Shambhala"
 #~ msgstr "Over Shambhala"
