@@ -95,15 +95,19 @@ function shambhala_twentytwentytwo_get_organizer( $event_id ) {
 	if ( function_exists( 'tribe_get_organizer_id' )
 		&& function_exists( 'tribe_get_organizer' ) ) {
 		$organizer_id   = (int) tribe_get_organizer_id( $event_id );
-		$organizer_link = get_post_permalink( $organizer_id );
+		$organizer_name = tribe_get_organizer( $event_id );
+		$organizer_link = get_permalink( $organizer_id );
 
 		$html .= '<h3>' . __( 'Organizer', 'shambhala-twentytwentytwo' ) . '</h3>';
-		$html .= '<h4>' . tribe_get_organizer( $event_id ) . '</h4>';
-		if ( is_string( $organizer_link ) ) {
-			/* translators: %s is replaced with "organizer link URL" */
-			$link = sprintf( wp_kses( __( '<a href="%s">View all events by this organizer</a>', 'shambhala-twentytwentytwo' ), array( 'a' => array( 'href' => array() ) ) ), esc_url( $organizer_link ) );
-			$html .= '<p>' . $link . '</p>';
-		}
+		$html .= '<h4>' . $organizer_name . '</h4>';
+
+		$link_label = sprintf(
+			/* translators: %s is replaced with the organizer name */
+			__( 'View all events by %s', 'shambhala-twentytwentytwo' ),
+			$organizer_name
+		);
+		$html .= '<p><a href="' . $organizer_link . '">' . $link_label . '</p>';
+
 	}
 
 	return $html;
@@ -259,7 +263,7 @@ function shambhala_twentytwentytwo_get_details() {
 			);
 		}
 
-		$html .= '</dl></div><!-- tribe-events-meta-group tribe-events-meta-group-details -->';
+		$html .= '</dl></div>';
 		$html .= '</div><!-- /wp:column --></div><!-- /wp:columns --></div><!-- /wp:group -->';
 
 		return $html;

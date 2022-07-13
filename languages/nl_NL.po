@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Shambhala Twenty Twenty-Two\n"
-"POT-Creation-Date: 2022-07-12 07:52+0200\n"
-"PO-Revision-Date: 2022-07-12 07:54+0200\n"
+"POT-Creation-Date: 2022-07-13 07:21+0200\n"
+"PO-Revision-Date: 2022-07-13 07:23+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -56,41 +56,41 @@ msgstr "Zoekopdracht"
 msgid "Register"
 msgstr "Registreren"
 
-#: functions/functions-events.php:100
+#: functions/functions-events.php:101
 msgid "Organizer"
 msgstr "Organisator"
 
-#. translators: %s is replaced with "organizer link URL"
-#: functions/functions-events.php:104
+#. translators: %s is replaced with the organizer name
+#: functions/functions-events.php:106
 #, php-format
-msgid "<a href=\"%s\">View all events by this organizer</a>"
-msgstr "<a href=“%s”>Bekijk alle evenementen van deze organisator</a>"
+msgid "View all events by %s"
+msgstr "Bekijk alle evenementen van %s"
 
-#: functions/functions-events.php:169
+#: functions/functions-events.php:173
 msgid "Time:"
 msgstr "Tijd:"
 
-#: functions/functions-events.php:187
+#: functions/functions-events.php:191
 msgid "Details"
 msgstr "Details"
 
-#: functions/functions-events.php:194 functions/functions-events.php:210
+#: functions/functions-events.php:198 functions/functions-events.php:214
 msgid "Start:"
 msgstr "Start:"
 
-#: functions/functions-events.php:198 functions/functions-events.php:217
+#: functions/functions-events.php:202 functions/functions-events.php:221
 msgid "End:"
 msgstr "Einde:"
 
-#: functions/functions-events.php:204 functions/functions-events.php:226
+#: functions/functions-events.php:208 functions/functions-events.php:230
 msgid "Date:"
 msgstr "Datum:"
 
-#: functions/functions-events.php:241
+#: functions/functions-events.php:245
 msgid "Cost:"
 msgstr "Kosten:"
 
-#: functions/functions-events.php:283 patterns/hidden-title-events.php:9
+#: functions/functions-events.php:287 patterns/hidden-title-events.php:9
 msgid "Events"
 msgstr "Evenementen"
 
@@ -472,6 +472,10 @@ msgstr "Het shambhala.nl team"
 #. Author URI of the plugin/theme
 msgid "https://shambhala.nl/"
 msgstr "https://shambhala.nl/"
+
+#, php-format
+#~ msgid "<a href=\"%s\">View all events by this organizer</a>"
+#~ msgstr "<a href=“%s”>Bekijk alle evenementen van deze organisator</a>"
 
 #~ msgid "Venue"
 #~ msgstr "Locatie"
